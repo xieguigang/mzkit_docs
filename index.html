@@ -73,7 +73,7 @@
         <div class="container text-center banner">
 
 
-            <h2 class="title" style="color: white;">MZ<span class="highlight">Kit</span>
+            <h2 class="title" style="color: white;text-shadow: 2px 2px 32px #ffffff9c;">MZ<span class="highlight">Kit</span>
             </h2>
             <p class="intro">Data toolkits for processing NMR, MALDI MSI, LC-MS and GC-MS raw data, chemoinformatics
                 data analysis and data visualization.</p>
@@ -123,6 +123,7 @@
                         <a class="github-button" href="https://github.com/xieguigang/"
                             aria-label="Follow @xieguigang on GitHub">Follow @xieguigang</a>
                     </li>
+
                 </ul>
             </div>
         </div>
@@ -132,7 +133,8 @@
     <!-- ******ABOUT****** -->
     <section id="about" class="about section">
         <div class="container">
-            <h2 class="title text-center">What is MZKit?</h2>
+            <h2 class="title text-center">What is MZKit? <a href="https://doi.org/10.5281/zenodo.4603277"><img
+                        src="https://zenodo.org/badge/DOI/10.5281/zenodo.4603277.svg" alt="DOI"></a></h2>
             <p class="intro text-center">Mzkit is an open source raw data file toolkit for mass spectrometry data
                 analysis, provides by the BioNovoGene corporation. The features of mzkit inlcudes: raw data file content
                 viewer(XIC/TIC/Mass spectrum plot/MS-Imaging), build molecule network, formula de-novo search, de-novo
@@ -231,7 +233,9 @@
             <h2 class="section-title" style="margin: 0;
             margin-bottom: 15px;
             font-size: 36px;
-            font-weight: 300; color: var(--bs-heading-color);">Discover Features</h2>
+            font-weight: 300; color: var(--bs-heading-color);    
+            text-shadow: 2px 2px 18px #193977;">Discover Features
+            </h2>
             <p class="intro" style="color: #8e949e;
             font-size: 16px;
             max-width: 760px;
@@ -311,36 +315,44 @@
                 <!-- Tab panes -->
                 <div class="feature-content tab-content col-lg-8 col-md-6 col-12 order-1 order-md-0">
                     <div role="tabpanel" class="tab-pane fade" id="feature-1">
-                        <a href="#" target="_blank"><img class="img-fluid" src="assets/images/screens/BPC_overlay.PNG"
-                                alt="screenshot"></a>
+                        <a href="assets/images/screens/BPC_overlay.PNG" target="_blank" data-toggle="lightbox"
+                            data-caption="Show BPC overlays between multiple sample raw data files to view the data variants."><img
+                                class="img-fluid" src="assets/images/screens/BPC_overlay.PNG" alt="screenshot"></a>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="feature-2">
-                        <a href="#" target="_blank"><img class="img-fluid"
-                                src="assets/images/screens/de-novo-formulas.png" alt="screenshot"></a>
+                        <a href="assets/images/screens/de-novo-formulas.png" target="_blank" data-toggle="lightbox"
+                            data-caption="Run metadna annotation and KEGG pathway enrichment analysis of your metabolomics raw data file, powered by GCModeller."><img
+                                class="img-fluid" src="assets/images/screens/de-novo-formulas.png" alt="screenshot"></a>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="feature-3">
-                        <a href="#" target="_blank"><img class="img-fluid" src="assets/images/screens/ms-imaging2.PNG"
-                                alt="screenshot"></a>
+                        <a href="assets/images/screens/ms-imaging2.PNG" target="_blank" data-toggle="lightbox"
+                            data-caption="MS-Imaging view for visual of the spatial metabolomics raw data."><img
+                                class="img-fluid" src="assets/images/screens/ms-imaging2.PNG" alt="screenshot"></a>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="feature-4">
-                        <a href="#" target="_blank"><img class="img-fluid" src="assets/images/screens/MS.PNG"
-                                alt="screenshot"></a>
+                        <a href="assets/images/screens/MS.PNG" target="_blank" data-toggle="lightbox"
+                            data-caption="Input a custom mass spectrum in ms level 2 and then search similar spectrum in all of your raw data files!"><img
+                                class="img-fluid" src="assets/images/screens/MS.PNG" alt="screenshot"></a>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="feature-5">
-                        <a href="#" target="_blank"><img class="img-fluid"
-                                src="assets/images/screens/network_viewer.PNG" alt="screenshot"></a>
+                        <a href="assets/images/screens/network_viewer.PNG" target="_blank" data-toggle="lightbox"
+                            data-caption="Molecule networking in MZKit workbench to discovery new natural product or drugs just like GNPS it does."><img
+                                class="img-fluid" src="assets/images/screens/network_viewer.PNG" alt="screenshot"></a>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="feature-6">
-                        <a href="#" target="_blank"><img class="img-fluid" src="assets/images/screens/raw-scatter.PNG"
-                                alt="screenshot"></a>
+                        <a href="assets/images/screens/raw-scatter.PNG" target="_blank" data-toggle="lightbox"
+                            data-caption="Inspect your metabolomics raw data file, view mass spectrum, peak finding on XIC matrix data, etc"><img
+                                class="img-fluid" src="assets/images/screens/raw-scatter.PNG" alt="screenshot"></a>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="feature-7">
-                        <a href="#" target="_blank"><img class="img-fluid" src="assets/images/screens/Targeted.PNG"
-                                alt="screenshot"></a>
+                        <a href="assets/images/screens/Targeted.PNG" target="_blank" data-toggle="lightbox"
+                            data-caption="Do linear fitting and quantification of your targetted metabolomics raw data."><img
+                                class="img-fluid" src="assets/images/screens/Targeted.PNG" alt="screenshot"></a>
                     </div>
                     <div role="tabpanel" class="tab-pane fade active show" id="feature-8">
-                        <a href="#" target="_blank"><img class="img-fluid" src="assets/images/screens/automation.PNG"
-                                alt="screenshot"></a>
+                        <a href="assets/images/screens/automation.PNG" target="_blank" data-toggle="lightbox"
+                            data-caption="MZKit provides the R# nuget package for create an automation pipeline work based on the GCModeller Rstudio platform."><img
+                                class="img-fluid" src="assets/images/screens/automation.PNG" alt="screenshot"></a>
                     </div>
 
                 </div>
@@ -400,7 +412,7 @@
     <!-- ******LICENSE****** -->
     <section id="license" class="license section">
         <div class="container">
-            <div class="license-inner">
+            <div class="license-inner" style="box-shadow: 0 6px 26px 0 rgb(31 36 38 / 15%);">
                 <h2 class="title text-center">License &amp; Copyright</h2>
 
                 <p>
@@ -513,7 +525,7 @@
                         <img class="img-fluid" src="assets/images/profile.png" alt="" />
                     </div>
                     <!--//profile-->
-                    <div class="speech-bubble">
+                    <div class="speech-bubble" style="box-shadow: 0 6px 64px 0 rgb(31 36 38 / 15%);">
                         <h3 class="sub-title">Wanna to get supports or make contribution to MZKit?</h3>
                         <p><a href="mailto://gg.xie@bionovogene.com" target="_blank">Get in touch with me </a> if you
                             encounter any problem when running the MZKit workbench software; And you also can prompt a
@@ -549,6 +561,13 @@
 
                             </a></li>
 
+                        <li class="list-inline-item"><a href="https://gcmodeller.org/" target="_blank">
+                                <br />
+                                <img src="assets/images/logo.png" style="height: 120px;" />
+
+                            </a></li>
+
+
                     </ul>
                 </div>
                 <!--//info-->
@@ -565,6 +584,7 @@
     <script src="assets/plugins/prism/prism.js"></script>
     <script src="assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script defer src="assets/plugins/bs5-lightbox.bundle.min.js"></script>
 
     <div style="width: 100% ; text-align: center;">
         Copyright © 2013-2022 苏州帕诺米克生物医药科技有限公司 · 版权所有 | 中國 蘇州
