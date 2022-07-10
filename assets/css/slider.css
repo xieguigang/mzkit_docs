@@ -1,7 +1,7 @@
 #promo {
     background-image: url(https://i0.wp.com/stack.xieguigang.me/wp-content/uploads/2021/06/mzkit-MAC.png?ssl=1);
-    background-size:100%; 
-   
+    background-size: 100%;
+
 }
 
 .banner {
@@ -11,7 +11,13 @@
 .feature-nav .nav-link {
     position: relative;
     background: none;
-    padding: 10px 0;
+    padding: 5px 0;
     color: #616670;
     font-size: 16px;
+}
+
+#features {
+    background-color: white;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
