@@ -66,54 +66,39 @@ var vanillavb;
         */
         let history = [];
         function lang() {
-            let folder = $ts.location.path;
-            if (Strings.Empty(folder) || folder == "/") {
-                return "";
-            }
-            else if (folder.charAt(0) == "#") {
-                return "";
-            }
-            else {
-                return folder.split("/")[0];
-            }
+            // let folder = $ts.location.path;
+
+            // if (Strings.Empty(folder) || folder == "/") {
+            //     return "";
+            // }
+            // else if (folder.charAt(0) == "#") {
+            //     return "";
+            // }
+            // else {
+            //     return folder.split("/")[0];
+            // }
+            return "zh-CN";
         }
         function getTargetFile(fileName = $ts.location.hash(), multipleLanguage = true) {
             let pathFallback;
             let path;
-            let folder = lang();
-            if (folder == "vbscripts") {
-                if (!Strings.Empty(fileName, true)) {
-                    pathFallback = `/vbscripts/docs/${fileName}.md`;
-                }
-                else {
-                    fileName = $ts.location.fileName;
-                    if (fileName == "index.html" || Strings.Empty(fileName, true)) {
-                        // show home page
-                        pathFallback = "/vbscripts/README.md";
-                    }
-                    else {
-                        return null;
-                    }
-                }
+
+            if (!Strings.Empty(fileName, true)) {
+                pathFallback = `/docs/${fileName}.md`;
                 path = pathFallback;
+                if (multipleLanguage && !Strings.Empty(language, true)) {
+                    path = `/docs/${language}/${fileName}.md`;
+                }
             }
             else {
-                if (!Strings.Empty(fileName, true)) {
-                    pathFallback = `/docs/${fileName}.md`;
-                    path = pathFallback;
-                    if (multipleLanguage && !Strings.Empty(language, true)) {
-                        path = `/docs/${fileName}.${language}.md`;
-                    }
-                }
-                else {
-                    // show home page
-                    pathFallback = "/README.md";
-                    path = pathFallback;
-                    if (multipleLanguage && !Strings.Empty(language, true)) {
-                        path = `/README.${language}.md`;
-                    }
+                // show home page
+                pathFallback = "/README.md";
+                path = pathFallback;
+                if (multipleLanguage && !Strings.Empty(language, true)) {
+                    path = `/${language}/README.md`;
                 }
             }
+            
             return {
                 path: path,
                 pathFallback: pathFallback
@@ -123,7 +108,7 @@ var vanillavb;
             // initialize styles and events
             window.onhashchange = app.loadDocument;
             config.renderer = new app.markdown();
-            vbcodeStyle.lineHeight = "5px";
+            // vbcodeStyle.lineHeight = "5px";
             language = lang();
             app.renderDocument(getTargetFile());
         }
@@ -151,7 +136,7 @@ var vanillavb;
             if (!isNullOrUndefined(h1)) {
                 document.title = h1.innerText;
                 h1.insertAdjacentElement("afterend", dateTag);
-                if (days > 30) {
+                if (days > 1000) {
                     let warn = $ts("<p>", {
                         style: "color: lightgrey; background-color: yellow;"
                     }).display(`This article is posted ${days} days before, information in this article may be obsolete...`);
