@@ -14,7 +14,7 @@ var vanillavb;
                 else if (!markdown.isFullName(href)) {
                     href = `/docs/${href}`;
                 }
-                var out = '<img style="width: 65%;" src="' + href + '" alt="' + text + '"';
+                var out = '<img style="width: 80%;" src="' + href + '" alt="' + text + '"';
                 if (title) {
                     out += ' title="' + title + '"';
                 }
