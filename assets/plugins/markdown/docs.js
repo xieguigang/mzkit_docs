@@ -127,6 +127,7 @@ var vanillavb;
             // and then highligh vb code block
             // vscode.highlightVB(vbcodeStyle);
             h1 = $ts("#article").getElementsByTagName("h1")[0];
+            
             dateTag = $ts("<span>", {
                 style: "color: grey; font-size: 0.8em;"
             }).display("#" + time.toLocaleDateString() + "#");
@@ -134,7 +135,9 @@ var vanillavb;
             let days = Math.floor(diff / (1000 * 60 * 60 * 24));
             if (!isNullOrUndefined(h1)) {
                 document.title = h1.innerText;
+                h1.insertAdjacentElement("afterend", $ts("<hr>"));
                 h1.insertAdjacentElement("afterend", dateTag);
+                
                 if (days > 1000) {
                     let warn = $ts("<p>", {
                         style: "color: lightgrey; background-color: yellow;"
@@ -142,6 +145,8 @@ var vanillavb;
                     dateTag.insertAdjacentElement("afterend", warn);
                     dateTag.insertAdjacentElement("afterend", $ts("<br>"));
                 }
+
+                
             }
             return h1.innerText;
         }
