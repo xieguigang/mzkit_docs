@@ -14,11 +14,12 @@ var vanillavb;
                 else if (!markdown.isFullName(href)) {
                     href = `/docs/${href}`;
                 }
-                var out = '<img src="' + href + '" alt="' + text + '"';
+                var out = '<img style="width: 65%;" src="' + href + '" alt="' + text + '"';
                 if (title) {
                     out += ' title="' + title + '"';
                 }
                 out += this.options.xhtml ? '/>' : '>';
+                out = `<a href="${href}" target="_blank" data-toggle="lightbox" data-caption="${title}">${out}</a>`;
                 return out;
             }
             static isFullName(href) {
