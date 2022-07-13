@@ -30,7 +30,7 @@
 
 ### 查看TIC/BPC叠加图
 
-![](BPC_overlay.PNG)
+![](images/BPC_overlay.PNG)
 
 ## 查看质谱图
 
