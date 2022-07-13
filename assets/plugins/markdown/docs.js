@@ -66,18 +66,17 @@ var vanillavb;
         */
         let history = [];
         function lang() {
-            // let folder = $ts.location.path;
+            let folder = $ts.location.path;
 
-            // if (Strings.Empty(folder) || folder == "/") {
-            //     return "";
-            // }
-            // else if (folder.charAt(0) == "#") {
-            //     return "";
-            // }
-            // else {
-            //     return folder.split("/")[0];
-            // }
-            return "zh-CN";
+            if (Strings.Empty(folder) || folder == "/") {
+                return "";
+            }
+            else if (folder.charAt(0) == "#") {
+                return "";
+            }
+            else {
+                return folder.split("/")[0];
+            }
         }
         function getTargetFile(fileName = $ts.location.hash(), multipleLanguage = true) {
             let pathFallback;
@@ -87,7 +86,7 @@ var vanillavb;
                 pathFallback = `/docs/${fileName}.md`;
                 path = pathFallback;
                 if (multipleLanguage && !Strings.Empty(language, true)) {
-                    path = `/docs/${language}/${fileName}.md`;
+                    path = `/docs/${fileName}.${language}.md`;
                 }
             }
             else {
