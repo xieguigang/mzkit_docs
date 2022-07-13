@@ -4,5 +4,5 @@
 
 ## 目录
 
-+ [查看LC-MS原始数据文件](http://localhost/zh/#view-lc-ms)
++ [查看LC-MS原始数据文件](/zh/#view-lc-ms)
 
