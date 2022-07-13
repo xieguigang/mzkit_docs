@@ -59,7 +59,7 @@ var vanillavb;
     var app;
     (function (app) {
         let config = markedjs.option.Defaults;
-        let vbcodeStyle = vscode.VisualStudio;
+        // let vbcodeStyle = vscode.VisualStudio;
         let language = lang();
         /**
          * A stack for enable back to previous article
@@ -126,7 +126,7 @@ var vanillavb;
             // update article content
             $ts("#article").innerHTML = html;
             // and then highligh vb code block
-            vscode.highlightVB(vbcodeStyle);
+            // vscode.highlightVB(vbcodeStyle);
             h1 = $ts("#article").getElementsByTagName("h1")[0];
             dateTag = $ts("<span>", {
                 style: "color: grey; font-size: 0.8em;"
