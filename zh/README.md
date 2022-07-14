@@ -5,4 +5,4 @@
 ## 目录
 
 + [查看LC-MS原始数据文件](/zh/#view-lc-ms)
-
++ [查看质谱成像原始数据文件](/zh/#view-ms-imaging)
