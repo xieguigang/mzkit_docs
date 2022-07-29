@@ -24,4 +24,4 @@
 1. 根据选择的MZKit软件的安装位置，访问至MZKit的数据服务脚本文件夹（一般情况下，默认位置为：``C:\Program Files\BioNovoGene\mzkit_win32\Rstudio\packages``）
 2. 双击执行文件夹之中的``install_locals.cmd``批处理脚本进行MZKit软件组件注册信息的手动修复
 
-![](/docs/images/local_installs.PNG)
+![](images/local_installs.PNG)
