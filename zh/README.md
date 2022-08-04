@@ -15,7 +15,7 @@
 + [查看质谱成像原始数据文件](/zh/#view-ms-imaging)
 + [质谱成像离子峰简单统计](/zh/#msi-ions)
 + [质谱成像代谢物离子搜索](/zh/#msi-metabolite-query)
-
++ [质谱成像矩阵热图数据可视化](/zh/#msi-matrix-heatmap)
 
 ### 特别注意
 
