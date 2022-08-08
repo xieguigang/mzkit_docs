@@ -84,7 +84,7 @@
 
 在诺米代谢的空间代谢组学数据分析流程报告交付结果之中，你可以从结果文件夹``06.MZKit数据查看``中获取得到两个数据文件：
 
-![](images/MSImaging/result-file.PNG)
+<img src="https://mzkit.org/docs/images/MSImaging/result-file.PNG" style="width: 276px;" />
 
 + ``CleanSample.mzPack``或者``CleanSample.mzImage``文件可以用于导入MZKit软件之中进行质谱成像结果查看。（经由MZKit相关功能可以转换为imzML开源格式导入到其他软件之中进行结果查看）
 + ``tissue_morphology.cdf``文件为空间代谢组学自动化流程基于相应的算法所创建的自动化分区结果。
