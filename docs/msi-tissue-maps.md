@@ -50,7 +50,7 @@
 
 为了方便进行分区数据的辨识，我们在完成了多边形的创建工作之后，需要为所创建的多边形进行相应的标签填写以及唯一颜色填充操作。一般情况下，我们会需要手动为多边形样本区域进行一些有意义的命名操作，设定自己所想要的分析颜色等。但是假若您并不想要手动完成，则可以通过【MSI Region Sample】窗口内的【Auto Sampleinfo】按钮进行信息的自动化填充：
 
-<img src="images/MSImaging/auto-sampleinfo-generates.PNG" style="width: 269px;" />
+<img src="https://mzkit.org/docs/images/MSImaging/auto-sampleinfo-generates.PNG" style="width: 269px;" />
 
 在点击此按钮之后，会弹出对话框确认是否执行自动填充。选择【确认】后，程序会自动分配颜色以及使用顺序编码所添加的样本区域编号
 
