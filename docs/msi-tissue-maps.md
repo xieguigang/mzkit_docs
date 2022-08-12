@@ -89,5 +89,5 @@
 + ``CleanSample.mzPack``或者``CleanSample.mzImage``文件可以用于导入MZKit软件之中进行质谱成像结果查看。（经由MZKit相关功能可以转换为imzML开源格式导入到其他软件之中进行结果查看）
 + ``tissue_morphology.cdf``文件为空间代谢组学自动化流程基于相应的算法所创建的自动化分区结果。
 
-假若需要将线下自动化流程分析的分区结果导入MZkit之中进行数据查看，可以通过顶部的Ribbon菜单栏，依次点击菜单按钮【Tissue Map】->【Export Regions】打开对应的CDF文件即可。
+假若需要将线下自动化流程分析的分区结果导入MZkit之中进行数据查看，可以通过顶部的Ribbon菜单栏，依次点击菜单按钮【Tissue Map】->【Imports Tissue Morphology】打开对应的组织图层CDF矩阵文件即可。
 
