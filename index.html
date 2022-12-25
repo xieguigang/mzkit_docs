@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-    <title>MZKit | Data toolkits for processing NMR, MALDI MSI, MALDI single cell, LC-MS and GC-MS raw data, chemoinformatics data analysis and data visualization.</title>
+    <title>MZKit | Data toolkits for processing NMR, MALDI MSI, MALDI single cell, LC-MS and GC-MS raw data,
+        chemoinformatics data analysis and data visualization.</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -76,7 +77,8 @@
             <h2 class="title" style="color: white;text-shadow: 2px 2px 32px #ffffff9c;">MZ<span
                     class="highlight">Kit</span>
             </h2>
-            <p class="intro">Data toolkits for processing NMR, MALDI MSI, MALDI single cell, LC-MS and GC-MS raw data, chemoinformatics data analysis and data visualization.</p>
+            <p class="intro">Data toolkits for processing NMR, MALDI MSI, MALDI single cell, LC-MS and GC-MS raw data,
+                chemoinformatics data analysis and data visualization.</p>
             <div class="btns">
                 <a class="btn btn-cta-secondary" href="./zh/" target="_blank">Documentation</a>
                 <a class="btn btn-cta-primary" href="http://www.biodeep.cn/downloads?lang=en-US"
@@ -138,7 +140,8 @@
             <p class="intro text-center">Mzkit is an open source raw data file toolkit for mass spectrometry data
                 analysis, provides by the BioNovoGene corporation. The features of mzkit inlcudes: raw data file content
                 viewer(XIC/TIC/Mass spectrum plot/MS-Imaging), build molecule network, formula de-novo search, de-novo
-                annotation of the unknown metabolite features and targeted data quantification.</p>
+                annotation of the unknown metabolite features, MALDI single cell metabolomics data analysis,
+                pathological slide viewer and targeted data quantification.</p>
             <div class="row">
                 <div class="item col-lg-4 col-md-6 col-12">
                     <div class="icon-holder">
@@ -418,6 +421,33 @@
                 </div>
             </div>
 
+            <div class="tabbed-area row" style="text-align:left ; ">
+
+                <div style="height: 45px;"></div>
+
+                <div class="row" style="text-align:left ; ">
+
+                    <div class="feature-content tab-content col-lg-10"
+                        style="text-align: left ; padding-left: 5%; padding-top: 0%;">
+                        <a class="modal-fullscreen" href="assets/images/screens/slide_viewer.PNG" target="_blank"
+                            data-toggle="lightbox" data-size="fullscreen"
+                            data-caption="View pathological section slide via MZKit.">
+                            <img class="img-fluid card-img-top" src="assets/images/screens/slide_viewer.PNG"
+                                style="width: 100%;" alt="View pathological section slide via MZKit."></a>
+                        <br />
+                        <br />
+                        <p>
+                            MZKit workbench is compatible with the Hamamatsu slide scanner pathological section raw data
+                            file.
+                            You can open &amp; view a pathological slide image in ndpi format or tif format in mzkit.
+                            Make
+                            pathological tissue region annotation and then mapping to the MS-imaging raw data.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
 
 
             <br />
@@ -477,9 +507,9 @@
             </div>
 
             <div class="tabbed-area row" style="text-align:left ; ">
-                
-				<div style="height: 30px;"></div>
-				
+
+                <div style="height: 30px;"></div>
+
                 <div class="row" style="text-align:left ; ">
 
                     <div class="feature-content tab-content col-lg-8"
@@ -487,12 +517,17 @@
                         <a class="modal-fullscreen" href="assets/images/screens/Chemoinformatics.PNG" target="_blank"
                             data-toggle="lightbox" data-size="fullscreen"
                             data-caption="MS-Imaging of your biological sample in well organized matrix layout template, no more style tweaking.">
-                            <img class="img-fluid card-img-top" src="assets/images/screens/Chemoinformatics.PNG" style="width: 100%;"
-                            alt="Chemoinformatics data processing"></a>
-<br />
-<br />
- <p>
-                            Draw chemical molecule structure via <a href="https://lifescience.opensource.epam.com/ketcher/index.html" target="__blank">Ketcher</a> in MZKit, and then convert the molecule structure data as the SMILES/InChI string. Then we could do mass spectrum prediction in MZKit via calling CFM-ID tool for generates the in-silicon MS2 matrix, finally search your MS2 matrix inside multiple sample that which has been loaded into the MZKit workspace.
+                            <img class="img-fluid card-img-top" src="assets/images/screens/Chemoinformatics.PNG"
+                                style="width: 100%;" alt="Chemoinformatics data processing"></a>
+                        <br />
+                        <br />
+                        <p>
+                            Draw chemical molecule structure via <a
+                                href="https://lifescience.opensource.epam.com/ketcher/index.html"
+                                target="__blank">Ketcher</a> in MZKit, and then convert the molecule structure data as
+                            the SMILES/InChI string. Then we could do mass spectrum prediction in MZKit via calling
+                            CFM-ID tool for generates the in-silicon MS2 matrix, finally search your MS2 matrix inside
+                            multiple sample that which has been loaded into the MZKit workspace.
                         </p>
                     </div>
 
@@ -514,9 +549,11 @@
                     runtime:<br />
                     <a
                         href="https://dotnet.microsoft.com/en-us/download/dotnet/6.0">https://dotnet.microsoft.com/en-us/download/dotnet/6.0</a><br />
+
 						
 					The Microsoft WebView2 runtime(windows-x64) is required for some interactive data visualization and analysis report generation:<br /> 
-					<a href="https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section">https://developer.microsoft.com/en-us/microsoft-edge/webview2/</a><br />
+					<a href="https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section">https://developer.microsoft.com/en-us/microsoft-edge/webview2/</a>
+
                 </p>
 
                 <p>
@@ -557,7 +594,8 @@
 
                 <p>
 
-                    <strong>You can cite MZKit in your literature work if needed:</strong> xie, guigang &amp; BioNovoGene. BioNovoGene
+                    <strong>You can cite MZKit in your literature work if needed:</strong> xie, guigang &amp;
+                    BioNovoGene. BioNovoGene
                     mzkit: Data toolkits for processing NMR, MALDI MSI, LC-MS and GC-MS raw data, chemoinformatics data
                     analysis and data visualization. (2022) doi:<a
                         href="https://explore.openaire.eu/search/software?pid=10.5281%2Fzenodo.4603277">10.5281/zenodo.7040586</a>.
@@ -752,9 +790,11 @@
     <script src="assets/js/main.js"></script>
     <script defer src="assets/plugins/bs5-lightbox.bundle.min.js"></script>
 
-	<div style="width:100%;text-align: center;">
-	<script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5vdm1y3dswl&amp;m=7&amp;c=ff0000&amp;cr1=ffffff&amp;f=georgia&amp;l=0&amp;s=175&amp;hi=70" async="async"></script>
-	</div>
+    <div style="width:100%;text-align: center;">
+        <script type="text/javascript"
+            src="//rf.revolvermaps.com/0/0/8.js?i=5vdm1y3dswl&amp;m=7&amp;c=ff0000&amp;cr1=ffffff&amp;f=georgia&amp;l=0&amp;s=175&amp;hi=70"
+            async="async"></script>
+    </div>
 
     <div style="width: 100% ; text-align: center;">
         Copyright © 2013-2022 苏州帕诺米克生物医药科技有限公司 · 版权所有 | 中國 蘇州
