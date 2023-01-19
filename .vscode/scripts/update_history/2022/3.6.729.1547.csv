@@ -1,0 +1,13 @@
+option,value
+version,3.6.729.1547
+DOI,10.5281/zenodo.7040586
+date,21-Nov-22
+enhancement,improvements of the ms-imaging render parameter grid: add options for turn imaging filter and ruler display
+new,"SMILES molecule structure designer, power by <a href=""https://lifescience.opensource.epam.com/ketcher/index.html"">Ketcher</a>!"
+new,CFM-ID workflow for run mass spectrum prediction in level2 based on the SMILES/InChI molecule structure string
+enhancement,make improvements of the workbench home page display
+enhancement,make improvements of the UI behaviour of the polygon editor for the ms-imaging sample
+fixed,make bugs fixed for generates the gray scale color palette
+update,update to latest mzkit R# package
+fixed,fix of the possible app crashed problem when drawing an empty polygon in ms-imaging viewer
+new,add plot of the phenograph spot cluster information in ms-imaging viewer
