@@ -1,0 +1,12 @@
+option,value
+version,4.1.9.5689
+DOI,
+date,1/20/2023
+note,Happy chinese new year
+fixed,Make bugs fixed for the web query cache system: empty cache was make the empty query result always, now it has been fixed!
+new,Add mzkit background services process viewer
+new,Reconstruct of the mzkit workbench desktop application framework for implements the plugin feature, the mzkit app sotre online services is comming soon!
+enhancement,fixed for the possible null reference error and the index out of range error, make the MS-imaging viewer more stable
+enhancement,make improvements of the task progress UI
+new,Add custom action for view scatter 3d data on the table data.
+new,View spatial metabolism tissue spot cluster data in 3d scatter plot view

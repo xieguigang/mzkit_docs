@@ -16,13 +16,18 @@ toUpdatesHtmlList = function(info, term) {
 }
 
 toHtmlText = function(info) {
+    special_notes = info$updates$note;
 	update_list = info$updates;
 	update_list = {
         for(term in names(update_list)) {
-            toUpdatesHtmlList(update_list[[term]], term);
+            if (term != "note") {
+                toUpdatesHtmlList(update_list[[term]], term);
+            }
         }
     }
 	update_list = unlist(update_list);
+
+    print(special_notes);
 
 	`
         <h5>${info$version}</h5>

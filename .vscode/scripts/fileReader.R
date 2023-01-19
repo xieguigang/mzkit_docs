@@ -22,7 +22,8 @@ load_file = function(path) {
 			"new": description(configs$new),
 			"enhancement": description(configs$enhancement),
 			"fixed": description(configs$fixed),
-			"update": description(configs$update)
+			"update": description(configs$update),
+			"note": description(configs$note)
 		}
 	};
 }
