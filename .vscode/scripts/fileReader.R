@@ -12,7 +12,7 @@ load_file = function(path) {
 	|> groupBy("option")
 	;
 
-	str(configs);
+	# str(configs);
 	
 	{
 		version: .Internal::first(configs$version)$value,

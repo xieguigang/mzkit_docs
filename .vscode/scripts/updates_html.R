@@ -1,15 +1,28 @@
 imports "html.R";
 imports "fileReader.R";
 
-setwd(@dir);
+const ROOT as string = `${@dir}/update_history/`;
+const dbfiles as string = list.files(ROOT, pattern = "*.csv", recursive = TRUE);
 
+print("database root:");
+str(ROOT);
+print("get database files about the release notes:");
+print(dbfiles);
 
+cat("\n\n");
 
+# parse release notes and then build in 
+# html text content
+const release_notes = dbfiles 
+|> lapply(path -> load_file(path))
+|> orderBy(function(release_note) {
+	as.date(release_note$date);
+})
+;
+const html as string = release_notes 
+|> sapply(x -> toHtmlText(x))
+|> paste("")
+;
 
-
-val = load_file("D:\biodeep\mzkit_docs\.vscode\scripts\update_history\2021\update_history.csv");
-html = toHtmlText(val);
-
-str(val);
-
-print(html);
+# export html
+writeLines(html, con = `${ROOT}/release_notes.html`);
