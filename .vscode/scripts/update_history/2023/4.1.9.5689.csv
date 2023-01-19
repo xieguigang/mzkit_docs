@@ -24,4 +24,4 @@ new,"Add an excited feature which you can make the spatial mapping between the s
 enhancement,make improvements of the ms-imaging render output post image processing function
 fixed,make bugs fixed for the in-correct slide scan width and height when do background clean in manually.
 enhancement,change the [install Mzkit] button from install package internally to calling the external pipeline script for initialize the R# runtime environment.
-enhancement,"make improvements of the MS-imaging viewer: do zoom, rotation of the ms-imaging output"
+update,"make improvements of the MS-imaging viewer, update to v2.0 version: do zoom, rotation of the ms-imaging output"
