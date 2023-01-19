@@ -2,7 +2,8 @@ option,value
 version,4.1.9.5689
 DOI,
 date,1/20/2023
-note,Happy chinese new year!
+note,🎉Happy chinese new year!
+note,🧨🧨🧨🎉🎉🎇🎇
 fixed,"Make bugs fixed for the web query cache system: empty cache could make the empty query result always returned, now it has been fixed!"
 new,Add mzkit background services process viewer
 new,"Reconstruct of the mzkit workbench desktop application framework for implements the plugin feature, the mzkit app sotre online services is comming soon!"

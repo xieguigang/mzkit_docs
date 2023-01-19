@@ -21,7 +21,7 @@ toHtmlText = function(info) {
         if (length(special_notes) > 0) {
             `
             <p>
-                <blockquote>${special_notes}</blockquote>
+                <blockquote>${paste(special_notes, "<br />")}</blockquote>
             </p>
             `;
         } else {
