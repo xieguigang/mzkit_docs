@@ -17,3 +17,9 @@ new,View NMR raw data spectrum
 new,"View 3D MALDI scan data, MS-imaging in 3D"
 new,"Add single cell metabolism data processing feature into the mzkit R# package!"
 enhancement,"Add data context menu in the spectrum matrix viewer: [Open in table view] for send the spectrum matrix to the table viewer for the further data analysis or visualization, and the [Save] menu item for export the selected spectrum matrix into an excel file." 
+enhancement,"Add shortcut button for launch the ms data file conversion tool"
+new,"Merge multiple ms-imaging sample data file into one larger slide, and you also can custom the sample location layout in a super easy way"
+new,"Add an excited feature which you can make the spatial mapping between the spatial transcription sample slide and the spatial metabolism sample slide!"
+enhancement,make improvements of the ms-imaging render output post image processing function
+fixed,make bugs fixed for the in-correct slide scan width and height when do background clean in manually.
+enhancement,change the [install Mzkit] button from install package internally to calling the external pipeline script for initialize the R# runtime environment.
