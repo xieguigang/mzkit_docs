@@ -28,3 +28,9 @@
 
 ![](images/repairs_rstudio.png)
 > 或者也可以通过Windows的开始菜单，打开MZKit的开始菜单快捷方式文件夹，执行【Repairs RStudio】操作
+
+### MZKit工作站功能插件使用手册
+
+在学习功能插件模块的使用之前，老师您会需要首先根据文档《[安装与管理MZKit插件](/zh/#install_plugin)》进行学习插件模块在MZKit工作站上的安装部署以及插件的调用方法。
+
++ [空间代谢组学批量绘图插件使用教程](/zh/#batch-msi-plot)
