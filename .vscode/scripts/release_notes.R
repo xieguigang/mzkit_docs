@@ -17,7 +17,7 @@ const release_notes = dbfiles
 |> lapply(path -> load_file(path))
 |> orderBy(function(release_note) {
 	as.date(release_note$date);
-})
+}, desc = TRUE)
 ;
 const html as string = release_notes 
 |> sapply(x -> toHtmlText(x))
