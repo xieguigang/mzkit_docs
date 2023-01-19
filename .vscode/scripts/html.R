@@ -17,6 +17,18 @@ toUpdatesHtmlList = function(info, term) {
 
 toHtmlText = function(info) {
     special_notes = info$updates$note;
+    special_notes = {
+        if (length(special_notes) > 0) {
+            `
+            <p>
+                <blockquote>${special_notes}</blockquote>
+            </p>
+            `;
+        } else {
+            "";
+        }
+    }
+
 	update_list = info$updates;
 	update_list = {
         for(term in names(update_list)) {
@@ -38,5 +50,7 @@ toHtmlText = function(info) {
         <ul>
             ${paste(update_list, "")}
         </ul>
+
+        ${special_notes}
 	`;
 }
