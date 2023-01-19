@@ -23,6 +23,11 @@ const html as string = release_notes
 |> sapply(x -> toHtmlText(x))
 |> paste("")
 ;
+const template as string = `${@dir}/release_template.html`
+|> readText()
+|> gsub("${release_notes}", html)
+;
 
 # export html
 writeLines(html, con = `${ROOT}/release_notes.html`);
+writeLines(template, con = `${dirname(dirname(dirname(ROOT)))}/HISTORY.html`);
