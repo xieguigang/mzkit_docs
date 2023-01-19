@@ -2,11 +2,18 @@ option,value
 version,4.1.9.5689
 DOI,
 date,1/20/2023
-note,Happy chinese new year
-fixed,"Make bugs fixed for the web query cache system: empty cache was make the empty query result always, now it has been fixed!"
+note,Happy chinese new year!
+fixed,"Make bugs fixed for the web query cache system: empty cache could make the empty query result always returned, now it has been fixed!"
 new,Add mzkit background services process viewer
 new,"Reconstruct of the mzkit workbench desktop application framework for implements the plugin feature, the mzkit app sotre online services is comming soon!"
 enhancement,"fixed for the possible null reference error and the index out of range error, make the MS-imaging viewer more stable"
 enhancement,make improvements of the task progress UI
+enhancement,add copy text and save log output text function to the log text output window
 new,Add custom action for view scatter 3d data on the table data.
 new,View spatial metabolism tissue spot cluster data in 3d scatter plot view
+new,Add new feature for connect to the cloud services for processing ms-imaging data analysis and visualization
+new,"Add a new feature for view virtual pathology slide in tiff, dzi or ndpi format!"
+new,View NMR raw data spectrum
+new,"View 3D MALDI scan data, MS-imaging in 3D"
+new,"Add single cell metabolism data processing feature into the mzkit R# package!"
+enhancement,"Add data context menu in the spectrum matrix viewer: [Open in table view] for send the spectrum matrix to the table viewer for the further data analysis or visualization, and the [Save] menu item for export the selected spectrum matrix into an excel file." 
