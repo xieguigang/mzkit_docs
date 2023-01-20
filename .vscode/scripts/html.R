@@ -15,6 +15,23 @@ toUpdatesHtmlList = function(info, term) {
 	});
 }
 
+#' create doi badge image html
+#' 
+#' @param doi the doi string
+#' @param version the mzkit software version
+#' 
+doi_badge = function(doi as string, version as string) {
+    `
+        <a href="https://doi.org/${doi}">
+            <img src="https://zenodo.org/badge/DOI/${doi}.svg" alt="DOI of ver${version}">
+        </a>
+    `;
+}
+
+#' Create release note html 
+#' 
+#' @param info the update release note of the specific version of the mzkit software
+#' 
 toHtmlText = function(info) {
     special_notes = info$updates$note;
     special_notes = {
@@ -43,7 +60,12 @@ toHtmlText = function(info) {
 
 	`
         <h5>${info$version}</h5>
-        <blockquote>DOI: ${info$DOI}</blockquote>
+        <blockquote>
+            ${doi_badge(
+                doi = info$DOI, 
+                version = info$version
+            )}
+        </blockquote>
         <p>
             #${as.date(info$date) |> toString('MMM dd, yyyy')}#
         </p>
