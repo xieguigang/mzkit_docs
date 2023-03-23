@@ -59,7 +59,7 @@ toHtmlText = function(info) {
     print(special_notes);
 
 	`
-        <h5>${info$version}</h5>
+        <h5 id="${info$version}">${info$version}</h5>
         <blockquote>
             ${doi_badge(
                 doi = info$DOI, 
