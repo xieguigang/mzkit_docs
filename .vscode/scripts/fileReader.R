@@ -5,7 +5,7 @@
 #'    this table file.
 #' 
 load_file = function(path) {
-    const description(x) = sapply(x, i -> i$value);
+    const desc(x) = sapply(x, i -> i$value);
 	const configs = path 
 	|> read.csv(row.names = NULL, check.modes = FALSE) 
 	|> as.list(byrow = TRUE) 
@@ -19,11 +19,11 @@ load_file = function(path) {
 		DOI: .Internal::first(configs$DOI)$value,
 		date: .Internal::first(configs$date)$value,
 		updates: {
-			"new": description(configs$new),
-			"enhancement": description(configs$enhancement),
-			"fixed": description(configs$fixed),
-			"update": description(configs$update),
-			"note": description(configs$note)
+			"new": desc(configs$new),
+			"enhancement": desc(configs$enhancement),
+			"fixed": desc(configs$fixed),
+			"update": desc(configs$update),
+			"note": desc(configs$note)
 		}
 	};
 }
