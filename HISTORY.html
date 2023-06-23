@@ -152,6 +152,135 @@
 
 
                                 
+        <h5 id="4.5.139.9689">4.5.139.9689</h5>
+        <blockquote>
+            
+        <a href="https://doi.org/10.5281/zenodo.7553454">
+            <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7553454.svg" alt="DOI of ver4.5.139.9689">
+        </a>
+    
+        </blockquote>
+        <p>
+            #6月 24, 2023#
+        </p>
+        <ul>
+            <li>
+			<span class="badge rounded-pill bg-primary">new</span> 
+			Enable mzkit for imports 10x genomics raw data file for do slide sample imaging
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-primary">new</span> 
+			Enable mzkit for do ms-imaging slide sample rotation, just use the button [Rotate Slide] in MSI operations menu.
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-primary">new</span> 
+			Add ion annotation table imports for ms-imaging viewer, this function required a csv table that contains the target ions' m/z, name, formula, precursor_type information.
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-primary">new</span> 
+			Add a color scaler bar besides the ms-imaging viewer, you can adjust the intensity scaler range manually via this color scaler bar. This color scaler bar not working for the RGB ms-imaging render.
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-primary">new</span> 
+			View ion m/z distribution histogram in ms-imaging viewer. You can found this option in [MSI Analysis] -> [Feature Detections] menu.
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-primary">new</span> 
+			Add umap manifold + dbscan clustering for do slide sample auto-segmentation
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-primary">new</span> 
+			Add app plugin for view mzkit LCMS reference spectrum library data pack file, use this function by open plugin from [Plugin Manager] -> [Reference Library Viewer]
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-primary">new</span> 
+			Add app plugin for access to the Spectrum cluster tree database, use this function by open plugin from [Plugin Manager] -> [Molecular Network Viewer Client]
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-dark">enhancement</span> 
+			show physical ruler overlap in the ms-imaging render, you can turn off this overlap by set showPhysicalRuler option to false
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-dark">enhancement</span> 
+			show total ions ms-imaging overlaps in the ms-imaging render, you can turn off this overlap by set showTotalIonOverlap option to false
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-dark">enhancement</span> 
+			enable adjust the ion polarity mode for the ms-imaging data viewer, this option value will affects some ion metabolite annotation related function in mzkit ms-imaging data viewer
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-dark">enhancement</span> 
+			add more ms-imaging related properties to displayed in ms-imaging viewer: resolution, physical size in unit mm, file type, etc.
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-dark">enhancement</span> 
+			enable imports custom ion layer in the ion layer selector of the ms-imaging viewer, data imports could be comes from a csv or xlsx table file.
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-dark">enhancement</span> 
+			Add tweaks of the parameters when do ms-imaging row scan raw data file combines
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-dark">enhancement</span> 
+			enable set the color palette when create the ms-imaging heatmap matrix, you can just tweaks of this parameter in the [Settings] tab page on the ms-imaging heatmap matrix editor
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-dark">enhancement</span> 
+			Now the umap 3d scatter viewer could interactive with the ms-imaging viewer: you can select the ms-imaging pixel spot via mouse click on the scatter point in umap 3d scatter viewer
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-dark">enhancement</span> 
+			Enable the ms-imaging viewer imports the umap cluster dataset as the sample slide segmentation data source
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-dark">enhancement</span> 
+			Add scatter size options for tweaks the point size when view the tissue segmentation result overlap with the ms-imaging
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-dark">enhancement</span> 
+			make improvements of the targetted metabolism data viewer: export targetted linear modelling report PDF
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-dark">enhancement</span> 
+			Enable display the RGB ms-imaging renering plot by default when load plot data from the export cdf matrix file comes from the mzkit RGB ms-imging rendering result
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-success">fixed</span> 
+			fix of the possible bug in the background R# script data backend when create the ms-imaging heatmap matrix
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-info text-dark">update</span> 
+			removes the biodeep login condition for the targetted metabolism data handler
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-info text-dark">update</span> 
+			Add options for group the un-tagged pixel spots in the ms-imging slide sample in the ms-imaging tissue sample region editor
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-info text-dark">update</span> 
+			Add option for view sample region MS1 spectrum in the ms-imaging tissue sample region editor, use the mouse right click to invoke this function
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-info text-dark">update</span> 
+			Add option for set custom color in html color code for the ms-imaging tissue sample region
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-info text-dark">update</span> 
+			Add function for load all annotated molecule layer from the ms-imaging raw data file, you can use this new function via mouse contex menu of the ion layer selector
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-info text-dark">update</span> 
+			Add batch export of the ms-imaging layer image via mouse contex menu of the ion layer selector
+		 </li>
+		
+        </ul>
+
+        
+            <p>
+                <blockquote>This is a release update edition for PANOMIX spatial metabolism<br />Wish you peace and health on Chinese Dragon Boat Festival!</blockquote>
+            </p>
+            
+	
         <h5 id="4.1.9.5689">4.1.9.5689</h5>
         <blockquote>
             
@@ -161,7 +290,7 @@
     
         </blockquote>
         <p>
-            #Jan 20, 2023#
+            #1月 20, 2023#
         </p>
         <ul>
             <li>
@@ -269,6 +398,43 @@
             </p>
             
 	
+        <h5 id="1.32.7692.29666">1.32.7692.29666</h5>
+        <blockquote>
+            
+        <a href="https://doi.org/10.5281/zenodo.4456618">
+            <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4456618.svg" alt="DOI of ver1.32.7692.29666">
+        </a>
+    
+        </blockquote>
+        <p>
+            #1月 21, 2022#
+        </p>
+        <ul>
+            <li>
+			<span class="badge rounded-pill bg-primary">new</span> 
+			MS-imaging
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-primary">new</span> 
+			View MRM/GCMS SIM data files
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-dark">enhancement</span> 
+			Add plot tweaks function
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-dark">enhancement</span> 
+			Improvements of the R# scripting editor
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-dark">enhancement</span> 
+			Update R# interpreter engine
+		 </li>
+		
+        </ul>
+
+        
+	
         <h5 id="3.6.729.1547">3.6.729.1547</h5>
         <blockquote>
             
@@ -278,7 +444,7 @@
     
         </blockquote>
         <p>
-            #Nov 21, 2022#
+            #11月 22, 2021#
         </p>
         <ul>
             <li>
@@ -322,6 +488,133 @@
 
         
 	
+        <h5 id="v1.0.0.2-beta">v1.0.0.2-beta</h5>
+        <blockquote>
+            
+        <a href="https://doi.org/10.5281/zenodo.4274582">
+            <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4274582.svg" alt="DOI of verv1.0.0.2-beta">
+        </a>
+    
+        </blockquote>
+        <p>
+            #11月 20, 2015#
+        </p>
+        <ul>
+            <li>
+			<span class="badge rounded-pill bg-primary">new</span> 
+			Mass spectrum similarity search
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-dark">enhancement</span> 
+			Improvements of the content project file model
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-success">fixed</span> 
+			Bugs fixed of the mzkit_win32 UI
+		 </li>
+		
+        </ul>
+
+        
+	
+        <h5 id="v1.0.0.1-beta">v1.0.0.1-beta</h5>
+        <blockquote>
+            
+        <a href="https://doi.org/10.5281/zenodo.4091067">
+            <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4091067.svg" alt="DOI of verv1.0.0.1-beta">
+        </a>
+    
+        </blockquote>
+        <p>
+            #10月 20, 2015#
+        </p>
+        <ul>
+            <li>
+			<span class="badge rounded-pill bg-primary">new</span> 
+			View mzML/mzXML raw data files
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-primary">new</span> 
+			Formula de-novol search
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-primary">new</span> 
+			Molecular networking
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-primary">new</span> 
+			Feature search
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-primary">new</span> 
+			R# scripting for mzkit automation
+		 </li>
+		
+        </ul>
+
+        
+	
+        <h5 id="1.32.7743.6345">1.32.7743.6345</h5>
+        <blockquote>
+            
+        <a href="https://doi.org/10.5281/zenodo.4603277">
+            <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4603277.svg" alt="DOI of ver1.32.7743.6345">
+        </a>
+    
+        </blockquote>
+        <p>
+            #3月 21, 2014#
+        </p>
+        <ul>
+            <li>
+			<span class="badge rounded-pill bg-primary">new</span> 
+			add peak annotation result for MS matrix viewer
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-primary">new</span> 
+			targetted quantification linear modelling and sample quantify evaluation (required login BioDeep web services)
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-primary">new</span> 
+			add 3D plot of LC-MSMS MRM ion TIC overlaps plot
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-primary">new</span> 
+			add demo scripts into the file explorer
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-dark">enhancement</span> 
+			improvements of the raw data charting plot styles
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-dark">enhancement</span> 
+			improvements of the GCMS/LC-MSMS targetted file explorer
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-dark">enhancement</span> 
+			improvements of the GCMS feature ROI explorer
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-dark">enhancement</span> 
+			improvements of the document page model
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-dark">enhancement</span> 
+			add background task progress display on the status bar
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-success">fixed</span> 
+			fixed of R# script editor syntax highlight problem
+		 </li>
+		<li>
+			<span class="badge rounded-pill bg-info text-dark">update</span> 
+			update to latest mzkit R# package
+		 </li>
+		
+        </ul>
+
+        
+	
         <h5 id="3.5.593.3968">3.5.593.3968</h5>
         <blockquote>
             
@@ -331,7 +624,7 @@
     
         </blockquote>
         <p>
-            #Sep 01, 2022#
+            #9月 22, 2001#
         </p>
         <ul>
             <li>
@@ -425,170 +718,6 @@
 		<li>
 			<span class="badge rounded-pill bg-success">fixed</span> 
 			handling of the data serialization error when raw data file its file path is a windows UNC path
-		 </li>
-		
-        </ul>
-
-        
-	
-        <h5 id="1.32.7743.6345">1.32.7743.6345</h5>
-        <blockquote>
-            
-        <a href="https://doi.org/10.5281/zenodo.4603277">
-            <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4603277.svg" alt="DOI of ver1.32.7743.6345">
-        </a>
-    
-        </blockquote>
-        <p>
-            #Mar 14, 2021#
-        </p>
-        <ul>
-            <li>
-			<span class="badge rounded-pill bg-primary">new</span> 
-			add peak annotation result for MS matrix viewer
-		 </li>
-		<li>
-			<span class="badge rounded-pill bg-primary">new</span> 
-			targetted quantification linear modelling and sample quantify evaluation (required login BioDeep web services)
-		 </li>
-		<li>
-			<span class="badge rounded-pill bg-primary">new</span> 
-			add 3D plot of LC-MSMS MRM ion TIC overlaps plot
-		 </li>
-		<li>
-			<span class="badge rounded-pill bg-primary">new</span> 
-			add demo scripts into the file explorer
-		 </li>
-		<li>
-			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			improvements of the raw data charting plot styles
-		 </li>
-		<li>
-			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			improvements of the GCMS/LC-MSMS targetted file explorer
-		 </li>
-		<li>
-			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			improvements of the GCMS feature ROI explorer
-		 </li>
-		<li>
-			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			improvements of the document page model
-		 </li>
-		<li>
-			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			add background task progress display on the status bar
-		 </li>
-		<li>
-			<span class="badge rounded-pill bg-success">fixed</span> 
-			fixed of R# script editor syntax highlight problem
-		 </li>
-		<li>
-			<span class="badge rounded-pill bg-info text-dark">update</span> 
-			update to latest mzkit R# package
-		 </li>
-		
-        </ul>
-
-        
-	
-        <h5 id="1.32.7692.29666">1.32.7692.29666</h5>
-        <blockquote>
-            
-        <a href="https://doi.org/10.5281/zenodo.4456618">
-            <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4456618.svg" alt="DOI of ver1.32.7692.29666">
-        </a>
-    
-        </blockquote>
-        <p>
-            #Jan 22, 2021#
-        </p>
-        <ul>
-            <li>
-			<span class="badge rounded-pill bg-primary">new</span> 
-			MS-imaging
-		 </li>
-		<li>
-			<span class="badge rounded-pill bg-primary">new</span> 
-			View MRM/GCMS SIM data files
-		 </li>
-		<li>
-			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			Add plot tweaks function
-		 </li>
-		<li>
-			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			Improvements of the R# scripting editor
-		 </li>
-		<li>
-			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			Update R# interpreter engine
-		 </li>
-		
-        </ul>
-
-        
-	
-        <h5 id="v1.0.0.2-beta">v1.0.0.2-beta</h5>
-        <blockquote>
-            
-        <a href="https://doi.org/10.5281/zenodo.4274582">
-            <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4274582.svg" alt="DOI of verv1.0.0.2-beta">
-        </a>
-    
-        </blockquote>
-        <p>
-            #Nov 15, 2020#
-        </p>
-        <ul>
-            <li>
-			<span class="badge rounded-pill bg-primary">new</span> 
-			Mass spectrum similarity search
-		 </li>
-		<li>
-			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			Improvements of the content project file model
-		 </li>
-		<li>
-			<span class="badge rounded-pill bg-success">fixed</span> 
-			Bugs fixed of the mzkit_win32 UI
-		 </li>
-		
-        </ul>
-
-        
-	
-        <h5 id="v1.0.0.1-beta">v1.0.0.1-beta</h5>
-        <blockquote>
-            
-        <a href="https://doi.org/10.5281/zenodo.4091067">
-            <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4091067.svg" alt="DOI of verv1.0.0.1-beta">
-        </a>
-    
-        </blockquote>
-        <p>
-            #Oct 15, 2020#
-        </p>
-        <ul>
-            <li>
-			<span class="badge rounded-pill bg-primary">new</span> 
-			View mzML/mzXML raw data files
-		 </li>
-		<li>
-			<span class="badge rounded-pill bg-primary">new</span> 
-			Formula de-novol search
-		 </li>
-		<li>
-			<span class="badge rounded-pill bg-primary">new</span> 
-			Molecular networking
-		 </li>
-		<li>
-			<span class="badge rounded-pill bg-primary">new</span> 
-			Feature search
-		 </li>
-		<li>
-			<span class="badge rounded-pill bg-primary">new</span> 
-			R# scripting for mzkit automation
 		 </li>
 		
         </ul>

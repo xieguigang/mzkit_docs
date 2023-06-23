@@ -27,7 +27,11 @@ const template as string = `${@dir}/release_template.html`
 |> readText()
 |> gsub("${release_notes}", html)
 ;
+const history_page = `${dirname(dirname(ROOT))}/HISTORY.html`;
 
 # export html
+print("export & updates of the release history:");
+print(history_page);
+
 writeLines(html, con = `${ROOT}/release_notes.html`);
-writeLines(template, con = `${dirname(dirname(dirname(ROOT)))}/HISTORY.html`);
+writeLines(template, con = history_page);
