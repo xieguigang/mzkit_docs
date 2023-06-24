@@ -1,6 +1,6 @@
 option,value
 version,4.5.139.9689
-DOI,10.5281/zenodo.7553454
+DOI,10.5281/zenodo.8076924
 date,6/24/2023
 new,"Enable mzkit for imports 10x genomics raw data file for do slide sample imaging"
 new,"Enable mzkit for do ms-imaging slide sample rotation, just use the button [Rotate Slide] in MSI operations menu."
