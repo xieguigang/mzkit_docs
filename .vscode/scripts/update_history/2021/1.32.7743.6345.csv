@@ -1,7 +1,7 @@
 option,value
 version,1.32.7743.6345
 DOI,10.5281/zenodo.4603277
-date,14-Mar-21
+date,3/14/2021
 enhancement,improvements of the raw data charting plot styles
 new,add peak annotation result for MS matrix viewer
 new,targetted quantification linear modelling and sample quantify evaluation (required login BioDeep web services)

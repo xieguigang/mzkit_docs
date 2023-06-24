@@ -1,7 +1,7 @@
 option,value
 version,3.6.729.1547
 DOI,10.5281/zenodo.7040586
-date,21-Nov-22
+date,11/21/2022
 enhancement,improvements of the ms-imaging render parameter grid: add options for turn imaging filter and ruler display
 new,"SMILES molecule structure designer, power by <a href='https://lifescience.opensource.epam.com/ketcher/index.html'>Ketcher</a>!"
 new,CFM-ID workflow for run mass spectrum prediction in level2 based on the SMILES/InChI molecule structure string
