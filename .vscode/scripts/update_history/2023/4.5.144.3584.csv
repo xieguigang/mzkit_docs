@@ -1,0 +1,7 @@
+option,value
+version,4.5.144.3584-patch1
+DOI,10.5281/zenodo.8076924
+date,6/26/2023
+fixed,"make bugs fixed for load ms-imaging data from Thermo Fisher raw file"
+enhancement,"add context menu options for view molecular networking cluster spectrum in [molecular network viewer]"
+enhancement,"add black color into the FlexImaging color palette"
