@@ -10,11 +10,11 @@
 >
 > Jianing Yu.
 
-![](/docs/images/faq-images/D42EFED4@6EBF0A7F.51F99B64.jpg)
+![](images/faq-images/D42EFED4@6EBF0A7F.51F99B64.jpg)
 
 今天很高兴收到了一封来自以为昵称为“三月兔”的老师的问题反馈来信，来信的内容大致意思为通过 MZkit 所自带的编程环境进行脚本执行，出现了一个符号被锁定的符号命名冲突问题。出现上面问题的原因主要是老师这边所命名的符号 exact_mass 和 mzkit 程序包之中的一个名为 exact_mass 的函数重名冲突了，所以 R#解释器报错无法修改 exact_mass 符号的值。
 
-![](/docs/images/faq-images/math_exact_mass.PNG)
+![](images/faq-images/math_exact_mass.PNG)
 
 既然问题现在已经明确了，那么下面我将以这个问题为引子，来讲解如何调用 MZKit 程序包进行质谱数据编程分析。
 
@@ -24,7 +24,7 @@ MZKit 软件是诺米代谢推出的一款主要应用于质谱数据分析的�
 
 因为目前 MZKit Desktop 的 GUI 界面上只实现了 MZKit Server 程序包中的一部分代码功能，所以假若老师您需要通过 MZKit 进行更加深入地质谱数据分析，则需要通过脚本编程的手段进行 MZKit 功能的调用。启用 MZKit 脚本执行的环境操作非常的容易，一般老师您只需要从开始菜单中打开【BioNovoGene Developer CommandLine Tool】即可启动 MZKit Server 编程环境：
 
-![](/docs/images/faq-images/bionovogene-dev-cli.PNG)
+![](images/faq-images/bionovogene-dev-cli.PNG)
 
 在这个命令行环境之中可以支持老师您使用一下三种语言进行 MZKit Server 编程：
 
