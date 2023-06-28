@@ -147,10 +147,137 @@ print(ppm(100.0123, 100.0133));
 # [1]  9.99867
 ```
 
-### 3. 一些常用的MZKit分析函数
+### 3. 一些常用的 MZKit 分析函数
+
+下面附上在 mzkit 程序包中提供的比较常用的一些质谱数据分析相关的函数，更加多的函数使用方法，老师这边可以查阅 mzkit 的帮助文档或者与我电子邮件沟通获取帮助信息。
 
 #### 1. 从化学式中计算出精确分子质量
 
 ```r
+require(mzkit);
 
+#' The chemical formulae toolkit
+imports "formula" from "mzkit";
+
+print(formula::eval(["CH3CH3", "H", "O3", "Na2CH2"]));
+# [1]      30.0469  1.00782  47.9847  59.9952
 ```
+
+#### 2. 读取质谱原始数据文件，并提取出所有二级质谱图
+
+```r
+require(mzkit);
+
+#' biodeep mzweb data viewer raw data file helper
+imports "mzweb" from "mzkit";
+
+let file = "C:\Program Files\BioNovoGene\mzkit_win32\demo\003_Ex2_Orbitrap_CID.mzXML";
+let ms2_spectrum = open.mzpack(file) |> ms2_peaks(
+    centroid = TRUE,
+    norm = FALSE,
+    filter.empty = TRUE,
+    into.cutoff = 0);
+
+print(ms2_spectrum);
+```
+
+#### 3. 计算任意两个二级质谱图之间的相似度，并绘制比对图
+
+```r
+require(mzkit);
+
+#' the R# math module
+imports "math" from "mzkit";
+#' m/z data operator module
+imports "data" from "mzkit";
+imports "visual" from "mzplot";
+
+# define the spectrum from dataframe
+let ms2_a = libraryMatrix(data.frame(mz = [100, 200, 301], intensity = [1, 0.9, 0.33]));
+let ms2_b = libraryMatrix(data.frame(mz = [100, 203, 301], intensity = [0.5, 0.3, 1]));
+
+# evaluate of the spectrum similarity scores
+# cos score
+str(as.list(math::cosine(ms2_a, ms2_b)));
+# spectral_entropy similarity
+print(math::spectral_entropy(ms2_a, ms2_b));
+
+# List of 10
+#  $ forward    : num  0.535916
+#  $ reverse    : num  0.680894
+#  $ jaccard    : num  0.5
+#  $ entropy    : num  0.523602
+#  $ mirror     : num  0.5
+#  $ cosine     : num  0.535916
+#  $ query      : List of 4
+#  ..$ id        : chr "MS Matrix"
+#  ..$ mz        : num 0
+#  ..$ scan_time : num 0
+#  ..$ intensity : num 0
+
+#  $ reference  : List of 4
+#  ..$ id        : chr "MS Matrix"
+#  ..$ mz        : num 0
+#  ..$ scan_time : num 0
+#  ..$ intensity : num 0
+
+#  $ alignments : any [1:4] [
+#      ..List of 4
+#  ..$ mz    : num  100
+#  ..$ query : num  1
+#  ..$ ref   : num  0.5
+#  ..$ da    : chr "0"
+
+#      ..List of 4
+#  ..$ mz    : num  200
+#  ..$ query : num  0.9
+#  ..$ ref   : num 0
+#  ..$ da    : chr "NaN"
+
+#      ..List of 4
+#  ..$ mz    : num  203
+#  ..$ query : num 0
+#  ..$ ref   : num  0.3
+#  ..$ da    : chr "NaN"
+
+#      ..List of 4
+#  ..$ mz    : num  301
+#  ..$ query : num  0.33
+#  ..$ ref   : num  1
+#  ..$ da    : chr "0"
+
+
+# ]
+#  $ nhits      : int 2
+
+# [1]  0.499453
+
+# plot specrum alignment
+bitmap(file = "/spectrum-alignment.png") {
+    mass_spectrum.plot(ms2_a, alignment = ms2_b);
+}
+```
+
+![](images/faq-images/spectrum-alignment.png)
+
+#### 4. 绘制质谱图
+
+```r
+require(mzkit);
+
+#' m/z data operator module
+imports "data" from "mzkit";
+imports "visual" from "mzplot";
+
+# construct a specrum object from a dataframe
+let spectrum = libraryMatrix(data.frame(
+    mz = [100, 200, 301],
+    intensity = [1, 0.9, 0.33]
+));
+
+bitmap(file = "/spectrum.png") {
+    plot(spectrum);
+}
+```
+
+![](images/faq-images/spectrum.png)
