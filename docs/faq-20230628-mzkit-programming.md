@@ -113,9 +113,36 @@ C:\etc\r_env\library\mzkit\package\vignettes
 | mzkit             | mzkit 程序包的主模块，里面包含有质谱原始数据文件读取模块，化学信息学计算分析模块，质谱图提取以及数据处理模块 | `imports "*" from "mzkit"`       |
 | mzplot            | 主要用于质谱数据作图的工作模块，里面包含有色谱图绘制函数，空间代谢组学的质谱成像渲染函数等数据可视化工具     | `imports "*" from "mzplot"`      |
 
+### 1. 根据帮助文档导入分析模块
+
 如果需要引用相应的模块进行编程，可以通过`imports`语句进行导入操作即可。相应的导入命令，老师这边可以通过打开相应模块文件夹中的帮助文档网页文件查看即可，例如我们在这里打开帮助文档：
 
 ```r
+# file:///C:/etc/r_env/library/mzkit/package/vignettes/mzkit/math.html
+require(mzkit);
 
+#' the R# math module
+imports "math" from "mzkit";
 ```
 
+![](images/faq-images/math-module.PNG)
+
+在帮助文档的开头，有一段代码提示了我们如何将对应的模块在脚本中进行导入操作，例如上面所展示的一段代码，就是将 mzkit 模块之中的 math 功能模块进行了加载操作，然后 math 模块之中的函数就都会被加载进入了我们的脚本编程环境之中。在上面的代码展示是以 R#脚本语言来展示的，假若是 python 语言，则可以通过下面的代码例子来进行加载操作，例如：
+
+```python
+import mzkit
+#' the R# math module
+from mzkit import math
+```
+
+### 2. 使用分析模块中的函数
+
+在完成了上面的分析模块导入操作之后，我们就可以在脚本中引用相应的函数来进行质谱数据相关的数据分析操作了，例如，假若我们需要计算两个`m/z`值之间的 ppm 误差，我们可以在导入 math 分析模块之后，直接使用 ppm 函数来进行计算操作：
+
+```r
+require(mzkit);
+imports "math" from "mzkit";
+
+print(ppm(100.0123, 100.0133));
+# [1]  9.99867
+```
