@@ -1,7 +1,7 @@
 option,value
 version,3.5.593.3968
 DOI,10.5281/zenodo.7040586
-date,1-Sep-22
+date,9/1/2022
 new,add tissue morphology map overlaps to MSI viewer
 new,add tissue morphology map editor feature to create custom tissue region for data analysis
 new,add HE stain image analysis module

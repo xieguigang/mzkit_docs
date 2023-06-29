@@ -1,7 +1,7 @@
 option,value
 version,v1.0.0.2-beta
 DOI,10.5281/zenodo.4274582
-date,15-Nov-20
+date,11/15/2020
 fixed,Bugs fixed of the mzkit_win32 UI
 enhancement,Improvements of the content project file model
 new,Mass spectrum similarity search
