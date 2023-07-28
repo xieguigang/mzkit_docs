@@ -1,0 +1,15 @@
+{
+  "background_color": "cyan",
+  "description": "Data toolkits for processing NMR, MALDI MSI, MALDI single cell, Raman Spectroscopy, LC-MS and GC-MS raw data, chemoinformatics data analysis and data visualization.",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "/assets/images/Flask.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "MZKit Home",
+  "short_name": "mzkit",
+  "start_url": "/index.html"
+}
