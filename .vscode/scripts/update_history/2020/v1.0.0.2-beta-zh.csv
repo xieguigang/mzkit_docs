@@ -1,7 +1,7 @@
 option,value
-版本,v1.0.0.2-beta
+version,v1.0.0.2-beta
 DOI,10.5281/zenodo.4274582
-日期,11/15/2020
-修复,修复mzkit_win32 UI中的bug。
-提升,项目文件内容优化。
-新增,新增质谱相似性搜索。
+date,11/15/2020
+fixed,修复mzkit_win32 UI中的bug。
+enhancement,项目文件内容优化。
+new,新增质谱相似性搜索。

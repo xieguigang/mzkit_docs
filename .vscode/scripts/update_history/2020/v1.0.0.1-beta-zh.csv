@@ -1,9 +1,9 @@
 option,value
-版本,v1.0.0.1-beta
+version,v1.0.0.1-beta
 DOI,10.5281/zenodo.4091067
-日期,10/15/2020
-新增,预览mzML/mzXML原始数据文件
-新增,Formula重新搜索
-新增,分子网络
-新增,特征搜索
-新增,与mzkit自动化有关的R#脚本
+date,10/15/2020
+new,预览mzML/mzXML原始数据文件
+new,Formula重新搜索
+new,分子网络
+new,特征搜索
+new,与mzkit自动化有关的R#脚本

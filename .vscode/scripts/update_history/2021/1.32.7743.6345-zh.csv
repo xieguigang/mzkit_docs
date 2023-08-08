@@ -1,18 +1,18 @@
 option,value
-版本,1.32.7743.6345
+version,1.32.7743.6345
 DOI,10.5281/zenodo.4603277
-日期,3/14/2021
-提升,优化原始数据图表样式。
-提升,优化GCMS/LC-MSMS靶向数据文件浏览器。
-提升,优化GCMS特征ROI浏览器。
-提升,优化文件夹页样式。
-提升,在状态栏中添加后台任务进程显示。
-修复,修复R#脚本编辑器中语法高亮问题。
-新增,在质谱结果矩阵预览器中增加峰注释结果。
-新增,新增靶向定量线性建模和样本定量评估(需要登录BioDeep web服务)。
-新增,在LC-MSMS MRM离子TIC重叠图中新增3D图像。
-新增,在文件浏览器中新增示例脚本。
-更新,更新至最新mzkit R# 包。
+date,3/14/2021
+enhancement,优化原始数据图表样式。
+enhancement,优化GCMS/LC-MSMS靶向数据文件浏览器。
+enhancement,优化GCMS特征ROI浏览器。
+enhancement,优化文件夹页样式。
+enhancement,在状态栏中添加后台任务进程显示。
+fixed,修复R#脚本编辑器中语法高亮问题。
+new,在质谱结果矩阵预览器中增加峰注释结果。
+new,新增靶向定量线性建模和样本定量评估(需要登录BioDeep web服务)。
+new,在LC-MSMS MRM离子TIC重叠图中新增3D图像。
+new,在文件浏览器中新增示例脚本。
+update,更新至最新mzkit R# 包。
 ,
 ,
 ,

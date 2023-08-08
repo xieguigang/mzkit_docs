@@ -167,15 +167,15 @@
         <ul>
             <li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			add context menu options for view molecular networking cluster spectrum in [molecular network viewer]
+			在[molecular network viewer]功能中，为查看分子网络聚类谱添加目录菜单选项。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			add black color into the FlexImaging color palette
+			在'FlexImaging color palette'中添加'黑色'。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-success">fixed</span> 
-			make bugs fixed for load ms-imaging data from Thermo Fisher raw file
+			修复加载Thermo Fisher下机数据进行质谱成像时出现bug问题。
 		 </li>
 		
         </ul>
@@ -196,118 +196,118 @@
         <ul>
             <li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			Enable mzkit for imports 10x genomics raw data file for do slide sample imaging
+			支持10x基因组原始数据文件导入mzkit用于切片样本成像。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			Enable mzkit for do ms-imaging slide sample rotation, just use the button [Rotate Slide] in MSI operations menu.
+			支持mzkit中质谱成像样本的旋转，使用MSI操作菜单中的[Rotate Slide]按键即可。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			Add ion annotation table imports for ms-imaging viewer, this function required a csv table that contains the target ions' m/z, name, formula, precursor_type information.
+			增加离子注释表格导入质谱成像预览器，本功能需要包含目标离子'm/z值(m/z)'、'名称(name)'、'分子式(formula)'、'前体类型(precursor_type)'的csv表格文件。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			Add a color scaler bar besides the ms-imaging viewer, you can adjust the intensity scaler range manually via this color scaler bar. This color scaler bar not working for the RGB ms-imaging render.
+			在质谱成像预览器旁边增加了颜色范围柱，你可以通过该颜色范围柱手动调整色彩范围的变化敏感程度。这项功能对RGB质谱成像模式不适用。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			View ion m/z distribution histogram in ms-imaging viewer. You can found this option in [MSI Analysis] -> [Feature Detections] menu.
+			在质谱成像预览器中查看离子m/z分布直方图。你可以在[MSI Analysis] -> [Feature Detections]菜单中找到该选项。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			Add umap manifold + dbscan clustering for do slide sample auto-segmentation
+			添加umap manifold + dbscan聚类用于样本图像的自动分区。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			Add app plugin for view mzkit LCMS reference spectrum library data pack file, use this function by open plugin from [Plugin Manager] -> [Reference Library Viewer]
+			添加预览mzkit LCMS参考数据库包文件的应用插件，通过[Plugin Manager] -> [Reference Library Viewer]加载此功能。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			Add app plugin for access to the Spectrum cluster tree database, use this function by open plugin from [Plugin Manager] -> [Molecular Network Viewer Client]
+			添加使用质谱聚类树数据库的应用插件，通过[Plugin Manager] -> [Molecular Network Viewer Client]加载此功能。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			show physical ruler overlap in the ms-imaging render, you can turn off this overlap by set showPhysicalRuler option to false
+			在质谱成像渲染中展示physical ruler overlap，你可以通过设置showPhysicalRuler选项关闭这种overlap。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			show total ions ms-imaging overlaps in the ms-imaging render, you can turn off this overlap by set showTotalIonOverlap option to false
+			在质谱成像渲染中展示总离子质谱成像overlap，你可以通过设置showTotalIonOverlap选项关闭这种overlap。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			enable adjust the ion polarity mode for the ms-imaging data viewer, this option value will affects some ion metabolite annotation related function in mzkit ms-imaging data viewer
+			支持在质谱成像数据预览器调整离子极性模式，此选项值将影响mzkit质谱数据查看器中某些离子代谢物注释相关功能。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			add more ms-imaging related properties to displayed in ms-imaging viewer: resolution, physical size in unit mm, file type, etc.
+			在质谱成像预览器中增加多个质谱成像相关功能包括：分辨率、物理单位毫米、文件类型等。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			enable imports custom ion layer in the ion layer selector of the ms-imaging viewer, data imports could be comes from a csv or xlsx table file.
+			支持在质谱成像预览器的离子选择器中导入自定义的离子列表，数据文件必须是csv或xlsx的表格类型。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			Add tweaks of the parameters when do ms-imaging row scan raw data file combines
+			在质谱成像原始scans数据文件合并时增加微调参数。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			enable set the color palette when create the ms-imaging heatmap matrix, you can just tweaks of this parameter in the [Settings] tab page on the ms-imaging heatmap matrix editor
+			在生成质谱成像热图矩阵时支持颜色主题的设置，你可以通过质谱成像热图矩阵编辑器的[Settings]列表页调整此参数。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			Now the umap 3d scatter viewer could interactive with the ms-imaging viewer: you can select the ms-imaging pixel spot via mouse click on the scatter point in umap 3d scatter viewer
+			UMAP 3D 散点图预览器目前可以在质谱成像预览器中进行交互：您可以通过鼠标单击UMAP 3D 散点图预览器中的点来选择相应的质谱成像像素点。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			Enable the ms-imaging viewer imports the umap cluster dataset as the sample slide segmentation data source
+			支持在质谱成像预览器中导入UMAP聚类数据集作为样本图像分区的数据源。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			Add scatter size options for tweaks the point size when view the tissue segmentation result overlap with the ms-imaging
+			增加质谱成像的组织分组结果预览时调整散点图中图形点的尺寸大小选项。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			make improvements of the targetted metabolism data viewer: export targetted linear modelling report PDF
+			改进了靶向代谢组数据查看：可导出靶向线性模型报告的PDF版
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			Enable display the RGB ms-imaging renering plot by default when load plot data from the export cdf matrix file comes from the mzkit RGB ms-imging rendering result
+			支持加载来自mzkit的RGB质谱成像渲染结果导出的cdf矩阵文件，默认展示RGB模式质谱渲染图。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-success">fixed</span> 
-			fix of the possible bug in the background R# script data backend when create the ms-imaging heatmap matrix
+			修复R#运行环境中的后端脚本在生成质谱成像热图矩阵时可能出现的bug
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-info text-dark">update</span> 
-			removes the biodeep login condition for the targetted metabolism data handler
+			移除分析靶向代谢组数据需要biodeep登陆的条件
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-info text-dark">update</span> 
-			Add options for group the un-tagged pixel spots in the ms-imging slide sample in the ms-imaging tissue sample region editor
+			在质谱成像组织样本区域编辑器中，添加对质谱成像样本图像中未标记像素点进行分组的选项
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-info text-dark">update</span> 
-			Add option for view sample region MS1 spectrum in the ms-imaging tissue sample region editor, use the mouse right click to invoke this function
+			在质谱成像组织样本区域编辑器中添加查看该区域的MS1信息的选项，使用鼠标右键调用此功能。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-info text-dark">update</span> 
-			Add option for set custom color in html color code for the ms-imaging tissue sample region
+			为质谱成像组织样本区域的html颜色代码中添加设置自定义颜色的选项。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-info text-dark">update</span> 
-			Add function for load all annotated molecule layer from the ms-imaging raw data file, you can use this new function via mouse contex menu of the ion layer selector
+			增加了从质谱成像原始数据文件中加载所有带注释的离子层的功能，你可以通过离子层选择器的鼠标上下文菜单使用这个新功能。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-info text-dark">update</span> 
-			Add batch export of the ms-imaging layer image via mouse contex menu of the ion layer selector
+			增加通过离子层选择器的鼠标上下文菜单批量导出多层质谱成像图像的功能。
 		 </li>
 		
         </ul>
 
         
             <p>
-                <blockquote>This is a release update edition for PANOMIX spatial metabolism<br />Wish you peace and health on Chinese Dragon Boat Festival!</blockquote>
+                <blockquote>本次更新版本适用于帕诺米克空间代谢组<br />祝您端午节平安健康！</blockquote>
             </p>
             
 	
@@ -325,106 +325,106 @@
         <ul>
             <li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			Add mzkit background services process viewer
+			添加mzkit后台服务进程查看器。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			Reconstruct of the mzkit workbench desktop application framework for implements the plugin feature, the mzkit app sotre online services is comming soon!
+			重构mzkit工作台桌面应用框架，实现插件功能，mzkit应用商店上线服务即将上线!
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			Add custom action for view scatter 3d data on the table data.
+			在预览数据表的3D散点图时增加了个性化功能。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			View spatial metabolism tissue spot cluster data in 3d scatter plot view
+			在3D散点图中预览中增加了空间代谢组组织聚类的预览。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			Add new feature for connect to the cloud services for processing ms-imaging data analysis and visualization
+			添加连接云服务的新功能，用于处理质谱成像数据分析和可视化。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			Add a new feature for view virtual pathology slide in tiff, dzi or ndpi format!
+			添加一个新功能，以tiff
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			View NMR raw data spectrum
+			新增预览核磁共振谱图原始数据。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			View 3D MALDI scan data, MS-imaging in 3D
+			新增预览3D MALDI质谱扫描数据。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			Add single cell metabolism data processing feature into the mzkit R# package!
+			在R#包中增加单细胞代谢组数据处理的新功能！
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			Merge multiple ms-imaging sample data file into one larger slide, and you also can custom the sample location layout in a super easy way
+			合并多个质谱成像原始数据文件为一个大的质谱成像图，并且你可以用很简单的方式自定义样本的位置。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			Add an excited feature which you can make the spatial mapping between the spatial transcription sample slide and the spatial metabolism sample slide!
+			增加令人兴奋的新功能：现在你能将空间转录组成像与空间代谢组成像在空间位置上进行配准！
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			fixed for the possible null reference error and the index out of range error, make the MS-imaging viewer more stable
+			修复可能出现的空值参考结果与超出索引范围错误，使质谱成像预览器更稳定。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			make improvements of the task progress UI
+			优化了任务进程的UI界面
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			add copy text and save log output text function to the log text output window
+			在日志文件输出窗口中增加了复制与保存日志输出功能。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			Add data context menu in the spectrum matrix viewer: [Open in table view] for send the spectrum matrix to the table viewer for the further data analysis or visualization, and the [Save] menu item for export the selected spectrum matrix into an excel file.
+			在质谱矩阵预览器中增加数据上下文菜单:[Open in table view]用于将质谱结果矩阵发送到表格查看器中进行进一步的数据分析或可视化，[Save]菜单项用于将所选质谱结果矩阵导出为excel文件。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			Add shortcut button for launch the ms data file conversion tool
+			添加快捷按钮，用于启动质谱数据文件转换工具
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			make improvements of the ms-imaging render output post image processing function
+			优化质谱成像渲染输出后的图像处理功能。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			change the [install Mzkit] button from install package internally to calling the external pipeline script for initialize the R# runtime environment.
+			将[install Mzkit]按钮从内部安装包改为调用外部管道脚本来初始化R#运行环境。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			Add functional buttons/context menu to the peak finding page: save matrix, imports matrix and copy peak list data.
+			在峰查找页面增加功能按钮/上下文菜单:保存矩阵、导入矩阵、复制峰列表数据。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			Add options for check sample row data normalization when do row sample data merge of the MS-imaging row scans.
+			增加质谱成像row scans数据合并时检查数据规范化的选项。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-success">fixed</span> 
-			Make bugs fixed for the web query cache system: empty cache could make the empty query result always returned, now it has been fixed!
+			修复了web查询缓存系统中的bug:空缓存总会返回空的查询结果，现在已经修复了!
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-success">fixed</span> 
-			make bugs fixed for the in-correct slide scan width and height when do background clean in manually.
+			修正了手动去除背景时样本成像扫描宽度和高度不正确的bug。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-info text-dark">update</span> 
-			make improvements of the MS-imaging viewer, update to v2.0 version: do zoom, rotation of the ms-imaging output
+			优化质谱成像预览器功能，升级到v2.0版本：加入质谱成像的位置旋转。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-info text-dark">update</span> 
-			Add parameter adjustment for the peak finding algorithm page
+			在峰查找算法页面增加了的调整参数。
 		 </li>
 		
         </ul>
 
         
             <p>
-                <blockquote>🎉🎇🎇2023<br />🎉Happy chinese new year!<br />🧨🧨🧨🎉🎉🎇🎇</blockquote>
+                <blockquote>🎉🎇🎇2023<br />🎉春节快乐!<br />🧨🧨🧨🎉🎉🎇🎇</blockquote>
             </p>
             
 	
@@ -442,39 +442,39 @@
         <ul>
             <li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			SMILES molecule structure designer, power by <a href='https://lifescience.opensource.epam.com/ketcher/index.html'>Ketcher</a>!
+			新增SMILES分子结构设计器，技术支持<a href='https://lifescience.opensource.epam.com/ketcher/index.html'>Ketcher</a>!
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			CFM-ID workflow for run mass spectrum prediction in level2 based on the SMILES/InChI molecule structure string
+			新增基于SMILES/InChI分子结构链运行的二级质谱预测的CFM-ID分析流程。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			add plot of the phenograph spot cluster information in ms-imaging viewer
+			在质谱成像预览器中添加分型聚类信息图查看
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			improvements of the ms-imaging render parameter grid: add options for turn imaging filter and ruler display
+			优化了质谱成像渲染参数截面：新增了翻转图像过滤器及比例尺展示。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			make improvements of the workbench home page display
+			优化工作空间的主页显示。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			make improvements of the UI behaviour of the polygon editor for the ms-imaging sample
+			优化样本质谱成像中多边形选择器的UI运行方式。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-success">fixed</span> 
-			make bugs fixed for generates the gray scale color palette
+			修复生成灰阶主题色时的bug
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-success">fixed</span> 
-			fix of the possible app crashed problem when drawing an empty polygon in ms-imaging viewer
+			修复在质谱成像预览器中绘制空多边形时可能出现的应用程序崩溃问题。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-info text-dark">update</span> 
-			update to latest mzkit R# package
+			更新至最新的mzkit R# 包。
 		 </li>
 		
         </ul>
@@ -495,95 +495,95 @@
         <ul>
             <li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			add tissue morphology map overlaps to MSI viewer
+			在质谱成像预览器中添加组织形态学图像重叠。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			add tissue morphology map editor feature to create custom tissue region for data analysis
+			添加组织形态图编辑器功能，以创建自定义组织区域进行数据分析。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			add HE stain image analysis module
+			添加HE染色图像分析模块。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			add a new general table data viewer for open microsoft excel table files
+			为打开Microsoft excel表文件添加一个新的通用表数据预览器。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			add a general data visualization module for plot data based on the table viewer content
+			基于表预览器内容的绘图数据添加一个通用的数据可视化模块。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			add new ggplot package for data plot pipeline task
+			新增用于数据可视化流程的ggplot包。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			add data visualization template rendering for MS-imaging plot
+			增加数据可视化模板用于质谱成像绘图的渲染。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			enable view multiple sample MS-imaging data
+			支持多样本质谱成像数据预览。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			add online pubchem metabolite database query function for the ion feature in MSI raw data
+			增加在线pubchem代谢物数据库查询功能，用于质谱成像原始数据中的离子特征搜寻。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			add data compatibility with the bruker SCiLS lab software
+			新增兼容bruker SCiLS lab软件数据。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			make improvements of the ms1 peak list data annotation function
+			优化一级质谱峰列表注释功能。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			update internal metabolite database, extends database list from KEGG only to KEGG/lipidmaps/chebi
+			更新内部代谢物数据库，从KEGG扩展至KEGG/lipidmaps/chebi。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			make the molecular networking viewer interactive
+			新增分子网络预览器互动功能。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			add ms1 peak deconvolution function to raw data viewer
+			在原始数据预览器中添加一级质谱峰解卷积功能。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			add peak finding analysis feature to the general signal data analysis
+			在通用信号数据分析中增加查找峰分析功能。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			new application installer experience
+			新的软件下载体验。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			upgrade the internal Rstudio environment from .NET4.8 assembly to .NET6.0 assembly
+			将内部Rstudio运行环境从.NET4.8升级到.NET6.0。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			add mzwork project file for share the workspace between the device
+			添加mzwork项目文件，用于在设备之间分享工作空间。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			make improvements of the MRM/GCMS targetted data viewer
+			优化MRM/GCMS靶向数据预览器。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-success">fixed</span> 
-			add fix patch script to install internal Rstudio environment
+			添加安装内部Rstudio环境的修复脚本。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-success">fixed</span> 
-			upgrade mzPack format to version 2.0, make improvements of the data compatibility between the single sample data and multiple sample data
+			更新mzPack格式至2.0版本，优化单样本数据与多样本数据的兼容性。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-success">fixed</span> 
-			make bugs fixed of the style tweaking for raw data plot viewer
+			修复了原始数据图预览器的样式调整bug
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-success">fixed</span> 
-			handling of the data serialization error when raw data file its file path is a windows UNC path
+			解决原始数据文件路径为windows UNC路径时的数据串行错误
 		 </li>
 		
         </ul>
@@ -604,47 +604,47 @@
         <ul>
             <li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			add peak annotation result for MS matrix viewer
+			在质谱结果矩阵预览器中增加峰注释结果。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			targetted quantification linear modelling and sample quantify evaluation (required login BioDeep web services)
+			新增靶向定量线性建模和样本定量评估(需要登录BioDeep web服务)。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			add 3D plot of LC-MSMS MRM ion TIC overlaps plot
+			在LC-MSMS MRM离子TIC重叠图中新增3D图像。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			add demo scripts into the file explorer
+			在文件浏览器中新增示例脚本。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			improvements of the raw data charting plot styles
+			优化原始数据图表样式。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			improvements of the GCMS/LC-MSMS targetted file explorer
+			优化GCMS/LC-MSMS靶向数据文件浏览器。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			improvements of the GCMS feature ROI explorer
+			优化GCMS特征ROI浏览器。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			improvements of the document page model
+			优化文件夹页样式。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			add background task progress display on the status bar
+			在状态栏中添加后台任务进程显示。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-success">fixed</span> 
-			fixed of R# script editor syntax highlight problem
+			修复R#脚本编辑器中语法高亮问题。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-info text-dark">update</span> 
-			update to latest mzkit R# package
+			更新至最新mzkit R# 包。
 		 </li>
 		
         </ul>
@@ -665,23 +665,23 @@
         <ul>
             <li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			MS-imaging
+			新增质谱成像功能。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			View MRM/GCMS SIM data files
+			新增预览 MRM/GCMS SIM 数据文件功能。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			Add plot tweaks function
+			新增图像微调功能。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			Improvements of the R# scripting editor
+			优化R#脚本编辑器。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			Update R# interpreter engine
+			更新R#解释器引擎。
 		 </li>
 		
         </ul>
@@ -702,15 +702,15 @@
         <ul>
             <li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			Mass spectrum similarity search
+			新增质谱相似性搜索。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-dark">enhancement</span> 
-			Improvements of the content project file model
+			项目文件内容优化。
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-success">fixed</span> 
-			Bugs fixed of the mzkit_win32 UI
+			修复mzkit_win32 UI中的bug。
 		 </li>
 		
         </ul>
@@ -731,23 +731,23 @@
         <ul>
             <li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			View mzML/mzXML raw data files
+			预览mzML/mzXML原始数据文件
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			Formula de-novol search
+			Formula重新搜索
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			Molecular networking
+			分子网络
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			Feature search
+			特征搜索
 		 </li>
 		<li>
 			<span class="badge rounded-pill bg-primary">new</span> 
-			R# scripting for mzkit automation
+			与mzkit自动化有关的R#脚本
 		 </li>
 		
         </ul>

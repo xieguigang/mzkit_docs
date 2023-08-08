@@ -1,7 +1,7 @@
 option,value
-版本,4.5.144.3584-patch1
+version,4.5.144.3584-patch1
 DOI,10.5281/zenodo.8076924
-日期,6/26/2023
-修复,修复加载Thermo Fisher下机数据进行质谱成像时出现bug问题。
-提升,在[molecular network viewer]功能中，为查看分子网络聚类谱添加目录菜单选项。
-提升,在"FlexImaging color palette"中添加"黑色"
+date,6/26/2023
+fixed,修复加载Thermo Fisher下机数据进行质谱成像时出现bug问题。
+enhancement,在[molecular network viewer]功能中，为查看分子网络聚类谱添加目录菜单选项。
+enhancement,在'FlexImaging color palette'中添加'黑色'。
