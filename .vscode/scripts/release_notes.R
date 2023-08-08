@@ -33,7 +33,7 @@ const write_releaseNote = function(dbfiles, lang = NULL) {
 	const template as string = `${@dir}/release_template.html`
 	|> readText()
 	|> gsub("${release_notes}", html)
-	|> gsub("${lang}", ifelse(is.null(lang), "zh", ""))
+	|> gsub("${lang}", ifelse(is.null(lang), "Chinese", "English"))
 	|> gsub("${lang-suffix}", ifelse(is.null(lang), "-zh", ""))
 	;
 	const history_page = {
