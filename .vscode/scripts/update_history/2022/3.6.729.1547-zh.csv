@@ -1,0 +1,13 @@
+option,value
+version,3.6.729.1547
+DOI,10.5281/zenodo.7040586
+date,11/21/2022
+enhancement,优化了质谱成像渲染参数截面：新增了翻转图像过滤器及比例尺展示。
+new,新增SMILES分子结构设计器，技术支持<a href='https://lifescience.opensource.epam.com/ketcher/index.html'>Ketcher</a>!
+new,新增基于SMILES/InChI分子结构链运行的二级质谱预测的CFM-ID分析流程。
+enhancement,优化工作空间的主页显示。
+enhancement,优化样本质谱成像中多边形选择器的UI运行方式。
+fixed,修复生成灰阶主题色时的bug
+update,更新至最新的mzkit R# 包。
+fixed,修复在质谱成像预览器中绘制空多边形时可能出现的应用程序崩溃问题。
+new,在质谱成像预览器中添加分型聚类信息图查看

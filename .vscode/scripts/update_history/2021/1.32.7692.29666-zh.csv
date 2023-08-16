@@ -1,0 +1,9 @@
+option,value
+version,1.32.7692.29666
+DOI,10.5281/zenodo.4456618
+date,1/22/2021
+new,新增质谱成像功能。
+new,新增预览 MRM/GCMS SIM 数据文件功能。
+enhancement,新增图像微调功能。
+enhancement,优化R#脚本编辑器。
+enhancement,更新R#解释器引擎。
