@@ -38,7 +38,7 @@ toHtmlText = function(info) {
         if (length(special_notes) > 0) {
             `
             <p>
-                <blockquote>${paste(special_notes, "<br />")}</blockquote>
+                <blockquote>${paste(special_notes, sep = "<br />")}</blockquote>
             </p>
             `;
         } else {
@@ -57,6 +57,7 @@ toHtmlText = function(info) {
 	update_list = unlist(update_list);
 
     print(special_notes);
+    str(info);
 
 	`
         <h5 id="${info$version}">${info$version}</h5>
@@ -70,7 +71,7 @@ toHtmlText = function(info) {
             #${as.date(info$date) |> toString('MMM dd, yyyy')}#
         </p>
         <ul>
-            ${paste(update_list, "")}
+            ${paste(update_list, sep = "")}
         </ul>
 
         ${special_notes}

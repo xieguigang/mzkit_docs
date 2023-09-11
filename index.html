@@ -11,7 +11,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="manifest" href="/manifest.json">
+    <link rel="manifest" href="./manifest.json">
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet'
         type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -27,6 +27,35 @@
 
     <!-- GitHub Button -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <style>
+        .hero-section .figure-holder {
+            background: url(./assets/images/2a5276fe-e357-4312-a75b-7064577b5261.png) no-repeat right top;
+            background-size: 1000px auto;
+            min-height: 640px;
+        }
+
+        .hero-section {
+            padding-top: 50px;
+            text-shadow: 2px 2px 18px #738fc5;
+        }
+
+        .pt-md-4 {
+            padding-top: 1.5rem !important;
+        }
+
+        .pt-3 {
+            padding-top: 1rem !important;
+        }
+
+        .site-tagline {
+            color: white;
+        }
+
+        .app-badge-img {
+            height: 64px;
+        }
+    </style>
 </head>
 
 <body data-spy="scroll">
@@ -238,6 +267,37 @@
     </section>
     <!--//about-->
 
+
+    <section class="hero-section">
+        <div class="container">
+            <div class="row figure-holder">
+                <div class="col-12 col-md-6 pt-3 pt-md-4" style="
+                background-color: #00000096;
+                padding-left: 40px;
+            ">
+                    <h2 class="site-headline font-weight-bold mt-lg-5 pt-lg-5">The best tool for processing your
+                        metabolomics dataset.</h2>
+                    <div class="site-tagline mb-3">Simply and easily enough for handling the metabolimcs rawdata,
+                        interpret your data，visualize your data and take a deep look inside into the biological
+                        knowledges!</div>
+                    <div class="cta-btns">
+                        <div class="mb-4"><a class="btn btn-primary font-weight-bold theme-btn" href="">View
+                                Documents</a></div>
+                        <ul class="app-stores list-unstyled list-inline mx-auto mx-md-0 d-inline-block">
+                            <li class="list-inline-item me-3"><a href="#"><img class="app-badge-img"
+                                        src="./assets/images/windows-app-badge.png" alt="Windows App"></a></li>
+                            <li class="list-inline-item"><a href="#"><img class="app-badge-img"
+                                        src="./assets/images/docker-app-badge.png" alt="Linux Docker"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--//row-->
+        </div>
+    </section>
+    <!--//hero-section-->
+
+
     <div id="features" class="section">
         <div class="container text-center">
 
@@ -255,8 +315,12 @@
                 There ares some awesome features of MZKit workbench that wait for discovered by you. Download and
                 install MZKit and then try to find out them!<br />
                 <br />
+
                 <a href="https://bio.tools/mzkit">
                     <img src="assets/images/opeb_logo.gif" style="height: 72px;">
+                </a>
+                <a href="https://scicrunch.org/resolver/RRID:SCR_023936?q=&i=rrid:scr_023936">
+                    <img src="assets/images/rin-resources_136123.png" style="height: 36px;">
                 </a>
             </p>
 
@@ -633,6 +697,12 @@
                     <li>
                         RawFileReader reading tool. Copyright © 2016 by Thermo Fisher Scientific, Inc. All rights
                         reserved.
+                    </li>
+                    <li>
+                        MS-DIAL was launched as a universal program for untargeted metabolomics that supports multiple
+                        instruments (GC/MS, GC/MS/MS, LC/MS, and LC/MS/MS) and MS vendors (Agilent, Bruker, LECO, Sciex,
+                        Shimadzu, Thermo, and Waters). Part of the spectrum algorithm in MZKit is developed based on the
+                        <a href="http://prime.psc.riken.jp/compms/msdial/main.html">MS-DIAL project</a>.
                     </li>
                 </ul>
 
