@@ -35,12 +35,24 @@
             min-height: 640px;
         }
 
+        .hero-section {
+            padding-top: 50px;
+        }
+
         .pt-md-4 {
             padding-top: 1.5rem !important;
         }
 
         .pt-3 {
             padding-top: 1rem !important;
+        }
+
+        .site-tagline {
+            color: white;
+        }
+
+        .app-badge-img {
+            height: 64px;
         }
     </style>
 </head>
@@ -258,19 +270,22 @@
     <section class="hero-section">
         <div class="container">
             <div class="row figure-holder">
-                <div class="col-12 col-md-6 pt-3 pt-md-4">
+                <div class="col-12 col-md-6 pt-3 pt-md-4" style="
+                background-color: #00000096;
+            ">
                     <h2 class="site-headline font-weight-bold mt-lg-5 pt-lg-5">The best tool for processing your
                         metabolomics dataset.</h2>
                     <div class="site-tagline mb-3">Simply and easily enough for handling the metabolimcs rawdata,
                         interpret your data，visualize your data and take a deep look inside into the biological
                         knowledges!</div>
                     <div class="cta-btns">
-                        <div class="mb-4"><a class="btn btn-primary font-weight-bold theme-btn" href="">View Documents</a></div>
+                        <div class="mb-4"><a class="btn btn-primary font-weight-bold theme-btn" href="">View
+                                Documents</a></div>
                         <ul class="app-stores list-unstyled list-inline mx-auto mx-md-0 d-inline-block">
-                            <li class="list-inline-item me-3"><a href="#"><img class="ios"
-                                        src="./assets/images/windows-app.svg" alt="Windows App"></a></li>
-                            <li class="list-inline-item"><a href="#"><img class="android"
-                                        src="./assets/images/linux-docker.svg" alt="Linux Docker"></a></li>
+                            <li class="list-inline-item me-3"><a href="#"><img class="app-badge-img"
+                                        src="./assets/images/windows-app-badge.png" alt="Windows App"></a></li>
+                            <li class="list-inline-item"><a href="#"><img class="app-badge-img"
+                                        src="./assets/images/docker-app-badge.png" alt="Linux Docker"></a></li>
                         </ul>
                     </div>
                 </div>
