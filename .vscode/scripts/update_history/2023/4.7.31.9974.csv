@@ -1,0 +1,23 @@
+option,value
+version,4.7.31.9974
+DOI,10.5281/zenodo.8076924
+date,9/29/2023
+enhancement,"add more file format supports for the mzkit pathological virtual slide viewer, it is based on the openslide library for processing the slide file "
+new,"add a new ribbon menu button for open the pathological virtual slide file, you can access this new feature via menu [File] -> [Toolkit] -> [Open Slide]"
+enhancement,"make updates of the pathological virtual slide viewer, you can make a screenshot, export deep zoom image package from the viewer"
+new,add new function for do HE stain image overlap with the ms-imaging slide data
+enhancement,add splash-id for ms spectrum property display
+enhancement,add moran index and moran p-value for ms-imaging property viewer
+new,"enable visualize the kegg enrichment result in network graph viewer, use this function just via access the [KEGG enrichment graph] function in the table visualization"
+new,add file format supports for open the AP-SMALDI udp project file in ms-imaging viewer
+new,add LCMS ms1 scatter data viewer
+update,"Some of the menu icon of mzkit has been updates to Windows11 color icons, menu icon comes from the free icon library website: https://icons8.com/icons"
+update,"Make updates of the ms-imaging plot export function, now you can adjust the plot image size, plot content padding and plot dpi for export both single ion ms-imaging plot and rgb overlaps ms-imaging plot"
+new,add 3d viewer for the LCMS ms1 scatter data
+update,updates the demo pathological virtual slide deep zoom image file
+update,add intensity quantile plot in the current layer mz histogram viewer
+new,"add function for adjust the ms-imaging slide its position automatically, used this new function via the [Auto Location] menu button in the ms-imaging viewer"
+enhancement,"You can tweaks of the ms-imaging render pipeline, via the [Tweaks MSI filters] menu button in the ms-imaging viewer."
+fixed,make errors fixed for load KEGG compound library when run peak list annotation
+note,"Chinese people, especially the poets, have a special emotion for the moon. The affections they hold may surpass those of any other nations in the world, forming a special moon sentiment. The sight of the moon can affect their emotions, and arouse their hopes and dreams for the future."
+note,Happy Mid-autumn Festival!
