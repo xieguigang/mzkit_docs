@@ -9,38 +9,2503 @@
 
 <url>
   <loc>https://mzkit.org/</loc>
-  <lastmod>2023-10-01T03:20:21+00:00</lastmod>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://mzkit.org/HISTORY.html</loc>
-  <lastmod>2023-10-01T03:20:20+00:00</lastmod>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mzkit.org/zh/</loc>
-  <lastmod>2023-10-01T03:20:21+00:00</lastmod>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mzkit.org/download.html</loc>
-  <lastmod>2023-10-01T03:20:21+00:00</lastmod>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mzkit.org/bilibili.html</loc>
-  <lastmod>2023-10-01T03:20:21+00:00</lastmod>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/docker.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mzkit.org/gallery.html</loc>
-  <lastmod>2023-10-01T03:20:21+00:00</lastmod>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mzkit.org/HISTORY-zh.html</loc>
-  <lastmod>2023-10-01T03:20:20+00:00</lastmod>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/index.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/index.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/lipidomics.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/metadna.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/spectrumPool.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/MoleculeNetworking.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/mzkit.simulator.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/hmdb_kit.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/massbank.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/metadb.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/Mummichog.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/pubchem_kit.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/assembly.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/chromatogram.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/data.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzPack.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzweb.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/NMR.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/RamanSpectroscopy.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/UVSpectroscopy.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/flexImaging.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/ProteoWizard.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/ThermoRaw.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/GCxGC.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/MSI.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/SingleCells.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/TissueMorphology.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/formula.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/math.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/SMILES.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/annotation.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mz_deco.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/spectrumTree.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/ChemicalDraw.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/MsImaging.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/NMR.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/tissue.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/visual.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/GCMS.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/Linears.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/math.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/MRMLinear.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/mzDeco.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/visualPlots.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot3.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/MSImaging/MSIfilter.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/MSImaging/ggplot.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/MSImaging/ggspatial.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/metadna/read.metadna.infer.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/metadna/reaction_class.table.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/metadna/metadna.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/metadna/range.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/metadna/load.kegg.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/metadna/load.kegg_network.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/metadna/load.raw.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/metadna/DIA.infer.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/metadna/as.seeds.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/metadna/result.alignment.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/metadna/as.table.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/metadna/as.graph.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/metadna/as.ticks.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/metadna/annotationSet.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/metadna/kegg.library.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/metadna/kegg.network.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/spectrumPool/createPool.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/spectrumPool/model_id.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/spectrumPool/load_infer.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/spectrumPool/infer.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/spectrumPool/openPool.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/spectrumPool/closePool.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/spectrumPool/getClusterInfo.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/spectrumPool/conservedGuid.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/spectrumPool/set_conservedGuid.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/spectrumPool/addPool.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/spectrumPool/commit.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/MoleculeNetworking/uniqueNames.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/MoleculeNetworking/as.graph.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/MoleculeNetworking/tree.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/MoleculeNetworking/splitClusterRT.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/MoleculeNetworking/clustering.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/MoleculeNetworking/msBin.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/MoleculeNetworking/representative.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/mzkit.simulator/read.kcf.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/mzkit.simulator/molecular.graph.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/mzkit.simulator/energy.range.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/mzkit.simulator/fragmentation.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/mzkit.simulator/energy.normal.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/mzkit.simulator/energy.custom.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzDIA/mzkit.simulator/write.mgf.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/hmdb_kit/read.hmdb_spectrals.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/hmdb_kit/get_hmdb.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/hmdb_kit/read.hmdb.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/hmdb_kit/export.hmdb_table.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/hmdb_kit/chemical_taxonomy.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/hmdb_kit/biospecimen_slicer.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/massbank/mona.msp_metadata.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/massbank/read.MoNA.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/massbank/read.SDF.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/massbank/write.lipidmaps.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/massbank/read.lipidmaps.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/massbank/lipid_classprofiles.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/massbank/lipid_profiles.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/massbank/lipid.names.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/massbank/as.lipidmaps.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/massbank/lipid.nameMaps.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/massbank/chebi.secondary2main.mapping.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/massbank/hmdb.secondary2main.mapping.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/massbank/secondary2main.mapping.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/massbank/save.mapping.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/massbank/glycosyl.tokens.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/massbank/glycosyl.solver.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/massbank/parse.ChEBI_entity.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/massbank/extract_chebi_compounds.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/massbank/rankingNames.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/massbank/metabo_anno.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/massbank/inchikey.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/metadb/mass_search.index.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/metadb/queryByMass.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/metadb/verify_cas_number.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/metadb/parseLipidName.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/metadb/annotationStream.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/metadb/annotationStream.compounds.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/metadb/precursorIon.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/metadb/ms1_handler.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/metadb/ms1_search.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/metadb/searchMz.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/metadb/getMetadata.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/metadb/excludeFeatures.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/metadb/has.metal_ion.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/metadb/uniqueFeatures.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/metadb/cbind.metainfo.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/metadb/load_asQueryHits.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/Mummichog/mzScore.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/Mummichog/peakList_annotation.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/Mummichog/queryCandidateSet.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/Mummichog/candidates_Id.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/Mummichog/createMzset.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/Mummichog/fromGseaBackground.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/Mummichog/kegg_background.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/Mummichog/group_peaks.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/pubchem_kit/read.pubmed.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/pubchem_kit/image_fly.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/pubchem_kit/query.external.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/pubchem_kit/CID.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/pubchem_kit/pubchem_url.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/pubchem_kit/query.knowlegde_graph.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/pubchem_kit/query.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/pubchem_kit/pugView.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/pubchem_kit/SID_map.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/pubchem_kit/read.pugView.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/pubchem_kit/read.webquery.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/pubchem_kit/metadata.pugView.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/pubchem_kit/read.mesh_tree.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/pubchem_kit/mesh_background.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/pubchem_kit/mesh_level1.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/assembly/read.msl.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/assembly/read.mgf.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/assembly/read.msp.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/assembly/mgf.ion_peaks.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/assembly/seek.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/assembly/scan_id.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/assembly/load_index.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/assembly/write.mgf.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/assembly/file.index.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/assembly/mzxml.mgf.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/assembly/raw.scans.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/assembly/polarity.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/assembly/ms1.scans.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/chromatogram/as.chromatogram.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/chromatogram/toChromatogram.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/chromatogram/add.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/chromatogram/subset.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/chromatogram/topInto.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/chromatogram/labels.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/chromatogram/scale_time.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/chromatogram/overlapsMatrix.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/chromatogram/overlaps.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/chromatogram/write.pack.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/chromatogram/read.pack.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/data/splash_id.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/data/unionPeaks.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/data/nsize.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/data/search.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/data/peakMs2.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/data/libraryMatrix.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/data/XIC_groups.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/data/XIC.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/data/rt_slice.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/data/intensity.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/data/scan_time.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/data/make.ROI_names.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/data/read.MsMatrix.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/data/linearMatrix.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzPack/getSampleTags.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzPack/split_samples.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzPack/open.mzwork.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzPack/mzwork.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzPack/readFileCache.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzPack/mzpack.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzPack/ls.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzPack/metadata.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzPack/scaninfo.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzPack/convertTo_mzXML.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzPack/packData.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzPack/packStream.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzPack/removeSciexNoise.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzPack/pack_ms1.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzweb/loadXcmsRData.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzweb/open.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzweb/TIC.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzweb/load.chromatogram.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzweb/load.stream.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzweb/parse.scanMs.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzweb/write.text_cache.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzweb/packBin.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzweb/read.cache.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzweb/write.cache.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzweb/write.mzPack.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzweb/write.cdf.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzweb/open.mzpack.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzweb/setThumbnail.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzweb/ms1_scans.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzweb/ms1_peaks.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzweb/ms2_peaks.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzweb/as.mzpack.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mzweb/mass_calibration.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/NMR/read.nmrML.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/NMR/acquisition.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/NMR/FID.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/NMR/nmr_dft.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/NMR/spectrumList.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/NMR/spectrum.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/RamanSpectroscopy/readFile.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/UVSpectroscopy/get_instrument.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/UVSpectroscopy/extract_UVsignals.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/UVSpectroscopy/as.UVtime_signals.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/UVSpectroscopy/write.UVsignals.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/UVSpectroscopy/read.UVsignals.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/flexImaging/read.metadata.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/flexImaging/importSpotList.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/flexImaging/importsExperiment.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/ProteoWizard/msconvert.ready.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/ProteoWizard/MRM.mzML.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/ProteoWizard/filter.msLevel.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/ProteoWizard/filter.scanTime.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/ProteoWizard/convert.thermo.raw.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/ThermoRaw/MSI_pixels.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/GCxGC/TIC2D.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/GCxGC/TIC1D.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/GCxGC/demodulate_2D.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/GCxGC/extract_2D_peaks.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/GCxGC/save.cdf.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/GCxGC/read.cdf.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/MSI/scale.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/MSI/msi_metadata.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/MSI/as.layer.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/MSI/splice.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/MSI/pixelId.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/MSI/pixels.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/MSI/open.imzML.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/MSI/write.imzML.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/MSI/row.scans.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/MSI/MSI_summary.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/MSI/correction.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/MSI/basePeakMz.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/MSI/ionStat.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/MSI/ions_jointmatrix.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/MSI/scans2D.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/MSI/scanMatrix.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/MSI/peakMatrix.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/MSI/peakSamples.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/MSI/pixelIons.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/MSI/getMatrixIons.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/MSI/pixelMatrix.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/MSI/spatial.convolution.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/MSI/pack_matrix.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/MSI/moran_I.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/MSI/sample_bootstraping.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/MSI/cast.spatial_layers.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/SingleCells/mz_matrix.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/SingleCells/as.expression.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/SingleCells/apply.scale.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/SingleCells/cell_matrix.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/SingleCells/SCM_ionStat.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/SingleCells/write.matrix.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/SingleCells/open.matrix.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/SingleCells/read.mz_matrix.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/SingleCells/df.mz_matrix.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/TissueMorphology/tag_samples.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/TissueMorphology/intersect_layer.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/TissueMorphology/UMAPsample.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/TissueMorphology/TissueData.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/TissueMorphology/writeCDF.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/TissueMorphology/loadTissue.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/TissueMorphology/loadUMAP.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/TissueMorphology/read.spatialMapping.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/TissueMorphology/splitMapping.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/TissueMorphology/gridding.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/formula/registerAnnotations.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/formula/peakAnnotations.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/formula/candidates.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/formula/eval.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/formula/scan.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/formula/canonical_formula.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/formula/getElementCount.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/formula/removeElement.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/formula/read.KCF.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/formula/KCF.graph.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/formula/parse.SDF.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/formula/SDF.convertKCF.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/formula/open.descriptor.db.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/formula/descriptor.matrix.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/formula/isotope_distribution.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/math/mz.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/math/exact_mass.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/math/ppm.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/math/spectrum.compares.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/math/jaccard.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/math/spectral_entropy.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/math/jaccardSet.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/math/cosine.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/math/cosine.pairwise.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/math/spectrum_tree.cluster.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/math/cluster.nodes.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/math/ions.unique.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/math/centroid.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/math/tolerance.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/math/sequenceOrder.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/math/precursor_types.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/math/defaultPrecursors.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/math/toMS.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/math/xcms_id.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/math/mz_index.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/math/intensity_vec.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/math/norm_msdata.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/SMILES/parse.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/SMILES/as.formula.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/SMILES/as.graph.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/SMILES/atoms.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/SMILES/links.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/annotation/xref.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/annotation/assert.adducts.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/annotation/populateIonData.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/annotation/make.annotation.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/annotation/checkInSourceFragments.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mz_deco/read.xcms_peaks.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/mz_deco/peak_subset.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/spectrumTree/new.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/spectrumTree/get_testSample.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/spectrumTree/readpack.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/spectrumTree/open.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/spectrumTree/dotcutoff.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/spectrumTree/jaccardSet.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/spectrumTree/query.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/spectrumTree/addBucket.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzkit/spectrumTree/compress.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/ChemicalDraw/KCFDraw.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/ChemicalDraw/as.kcf.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/MsImaging/split.layer.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/MsImaging/TrIQ.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/MsImaging/intensityLimits.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/MsImaging/write.mzImage.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/MsImaging/read.mzImage.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/MsImaging/FilterMz.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/MsImaging/MS1.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/MsImaging/viewer.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/MsImaging/pixel.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/MsImaging/ionLayers.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/MsImaging/tag_layers.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/MsImaging/sum_layers.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/MsImaging/rgb.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/MsImaging/MSIlayer.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/MsImaging/intensity.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/MsImaging/knnFill.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/MsImaging/MSI_coverage.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/MsImaging/assert.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/MsImaging/layer.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/MsImaging/MSI_summary.scaleMax.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/MsImaging/defaultFilter.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/MsImaging/render.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/MsImaging/as.pixels.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/MsImaging/MeasureMSIions.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/NMR/plot_nmr.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/tissue/scan_tissue.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/tissue/heatmap_layer.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/tissue/RSD.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/visual/gcxgc_heatmap.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/visual/raw_scatter.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/visual/raw_snapshot3D.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/visual/mass_spectrum.plot.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/visual/plot.UV_signals.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mzplot/visual/plotNetworkClusterHistogram.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/GCMS/as.quantify.ion.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/GCMS/SIMIonExtractor.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/GCMS/ScanIonExtractor.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/GCMS/parseContents.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/GCMS/contentTable.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/GCMS/read.raw.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/GCMS/peakRaw.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/GCMS/linear_algorithm.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/GCMS/linears.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/GCMS/ROIlist.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/Linears/lines.table.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/Linears/write.points.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/Linears/points.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/Linears/write.ionPeaks.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/Linears/ionPeaks.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/Linears/quantify.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/Linears/result.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/Linears/scans.X.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/Linears/read.linearPack.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/Linears/report.dataset.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/math/resample.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/math/chromatogram.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/math/peakROI.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/MRMLinear/MRM.arguments.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/MRMLinear/MRM.rt_alignments.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/MRMLinear/extract.ions.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/MRMLinear/extract.peakROI.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/MRMLinear/read.ion_pairs.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/MRMLinear/isomerism.ion_pairs.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/MRMLinear/as.ion_pairs.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/MRMLinear/read.reference.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/MRMLinear/read.IS.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/MRMLinear/wiff.rawfiles.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/MRMLinear/MRM.peak2.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/MRMLinear/MRM.peaks.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/MRMLinear/wiff.scan2.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/MRMLinear/wiff.scans.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/MRMLinear/linears.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/MRMLinear/R2.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/MRMLinear/sample.quantify2.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/MRMLinear/sample.quantify.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/mzDeco/mz.deco.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/mzDeco/read.peakFeatures.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/mzDeco/peak_alignment.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/mzDeco/mz.groups.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/visualPlots/standard_curve.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/visualPlots/chromatogram.plot.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/mzkit/mz_quantify/visualPlots/MRM.chromatogramPeaks.plot.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/ggplot.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/aes.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/geom_point.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/geom_text.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/geom_histogram.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/geom_line.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/geom_hline.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/geom_vline.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/geom_path.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/geom_convexHull.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/geom_boxplot.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/geom_col.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/geom_bar.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/geom_barplot.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/geom_violin.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/geom_jitter.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/geom_scatterpie.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/geom_scatterheatmap.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/geom_pie.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/geom_raster.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/annotation_raster.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/labs.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/stat_pvalue_manual.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/stat_compare_means.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/geom_signif.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/xlab.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/ylab.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/coord_flip.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/theme.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/element_blank.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/element_line.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/ggtitle.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/scale_colour_manual.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/scale_fill_manual.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/scale_x_continuous.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/scale_y_continuous.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/scale_y_reverse.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/element_text.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot2/element_rect.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/ggplot/ggplot3/view_camera.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/MSImaging/MSIfilter/log_scale.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/MSImaging/MSIfilter/quantile_scale.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/MSImaging/MSIfilter/TrIQ_scale.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/MSImaging/MSIfilter/soften_scale.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/MSImaging/MSIfilter/knn_scale.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/MSImaging/MSIfilter/denoise_scale.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/MSImaging/ggplot/MSI_knnfill.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/MSImaging/ggplot/MSI_gaussblur.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/MSImaging/ggplot/MSI_dimension.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/MSImaging/ggplot/pixelPack.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://mzkit.org/vignettes/MSImaging/MSImaging/ggplot/MSIheatmap.html</loc>
+  <lastmod>2023-12-15T09:22:26+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
 
 
