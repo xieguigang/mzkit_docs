@@ -1,0 +1,166 @@
+<!DOCTYPE html><html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <title>data</title>
+    <meta name="author" content="xie.guigang@gcmodeller.org" />
+    <meta name="copyright" content="SMRUCC genomics Copyright (c) 2022" />
+    <meta name="keywords" content="R#; data; mzkit" />
+    <meta name="generator" content="https://github.com/rsharp-lang" />
+    <meta name="theme-color" content="#333" />
+    <meta name="description" content="m/z data operator module..." />
+    <meta class="foundation-data-attribute-namespace" />
+    <meta class="foundation-mq-xxlarge" />
+    <meta class="foundation-mq-xlarge" />
+    <meta class="foundation-mq-large" />
+    <meta class="foundation-mq-medium" />
+    <meta class="foundation-mq-small" />
+    <meta class="foundation-mq-topbar" />
+    <style>
+
+.table-three-line {
+border-collapse:collapse; /* 关键属性：合并表格内外边框(其实表格边框有2px，外面1px，里面还有1px哦) */
+border:solid #000000; /* 设置边框属性；样式(solid=实线)、颜色(#999=灰) */
+border-width:2px 0 2px 0px; /* 设置边框状粗细：上 右 下 左 = 对应：1px 0 0 1px */
+}
+.left-1{
+    border:solid #000000;border-width:1px 1px 2px 0px;padding:2px;
+    font-weight:bolder;
+}
+.right-1{
+    border:solid #000000;border-width:1px 0px 2px 1px;padding:2px;
+    font-weight:bolder;
+}
+.mid-1{
+    border:solid #000000;border-width:1px 1px 2px 1px;padding:2px;
+    font-weight:bolder;
+}
+.left{
+    border:solid #000000;border-width:1px 1px 1px 0px;padding:2px;
+}
+.right{
+    border:solid #000000;border-width:1px 0px 1px 1px;padding:2px;
+}
+.mid{
+    border:solid #000000;border-width:1px 1px 1px 1px;padding:2px;
+}
+table caption {font-size:14px;font-weight:bolder;}
+</style>
+  </head>
+  <body>
+    <table width="100%" summary="page for {data}">
+      <tbody>
+        <tr>
+          <td>{data}</td>
+          <td style="text-align: right;">R# Documentation</td>
+        </tr>
+      </tbody>
+    </table>
+    <h1>data</h1>
+    <hr />
+    <p style="     font-size: 1.125em;     line-height: .8em;     margin-left: 0.5%;     background-color: #fbfbfb;     padding: 24px; ">
+      <code>
+        <span style="color: blue;">require</span>(<span style="color: black; font-weight: bold;">mzkit</span>);
+                               <br /><br /><span style="color: green;">#' m/z data operator module</span><br /><span style="color: blue;">imports</span><span style="color: brown"> "data"</span><span style="color: blue;"> from</span><span style="color: brown"> "mzkit"</span>;
+                           </code>
+    </p>
+    <p><p>m/z data operator module</p></p>
+    <blockquote>
+      <p style="font-style: italic; font-size: 0.9em;">
+                           
+                           </p>
+    </blockquote>
+    <div id="main-wrapper">
+      <table class="table-three-line">
+        <tbody><tr>
+  <td id="splash_id">
+    <a href="./data/splash_id.html">splash_id</a>
+  </td>
+  <td><p>evaluate the splash id of the given spectrum data</p></td>
+</tr>
+<tr>
+  <td id="unionPeaks">
+    <a href="./data/unionPeaks.html">unionPeaks</a>
+  </td>
+  <td><p>Union and merge the given multiple spectrum data into one single spectrum</p></td>
+</tr>
+<tr>
+  <td id="nsize">
+    <a href="./data/nsize.html">nsize</a>
+  </td>
+  <td><p>get the size of the target ms peaks</p></td>
+</tr>
+<tr>
+  <td id="search">
+    <a href="./data/search.html">search</a>
+  </td>
+  <td><p>search the target query spectra against a reference mzpack data file</p></td>
+</tr>
+<tr>
+  <td id="peakMs2">
+    <a href="./data/peakMs2.html">peakMs2</a>
+  </td>
+  <td><p>create a new ms2 peaks data object</p></td>
+</tr>
+<tr>
+  <td id="libraryMatrix">
+    <a href="./data/libraryMatrix.html">libraryMatrix</a>
+  </td>
+  <td><p>Create a library matrix object</p></td>
+</tr>
+<tr>
+  <td id="XIC_groups">
+    <a href="./data/XIC_groups.html">XIC_groups</a>
+  </td>
+  <td><p>grouping of the ms1 scan points by m/z data</p></td>
+</tr>
+<tr>
+  <td id="XIC">
+    <a href="./data/XIC.html">XIC</a>
+  </td>
+  <td><p>get chromatogram data for a specific metabolite with given m/z from the ms1 scans data.</p></td>
+</tr>
+<tr>
+  <td id="rt_slice">
+    <a href="./data/rt_slice.html">rt_slice</a>
+  </td>
+  <td><p>slice a region of ms1 scan data by a given rt window.</p></td>
+</tr>
+<tr>
+  <td id="intensity">
+    <a href="./data/intensity.html">intensity</a>
+  </td>
+  <td><p>get intensity value from the ion scan points</p></td>
+</tr>
+<tr>
+  <td id="scan_time">
+    <a href="./data/scan_time.html">scan_time</a>
+  </td>
+  <td><p>get scan time value from the ion scan points</p></td>
+</tr>
+<tr>
+  <td id="make.ROI_names">
+    <a href="./data/make.ROI_names.html">make.ROI_names</a>
+  </td>
+  <td><p>makes xcms_id format liked ROI unique id</p></td>
+</tr>
+<tr>
+  <td id="read.MsMatrix">
+    <a href="./data/read.MsMatrix.html">read.MsMatrix</a>
+  </td>
+  <td></td>
+</tr>
+<tr>
+  <td id="linearMatrix">
+    <a href="./data/linearMatrix.html">linearMatrix</a>
+  </td>
+  <td></td>
+</tr></tbody>
+      </table>
+    </div>
+    <hr />
+    <div style="text-align: center;">[<a href="../index.html">Document Index</a>]</div>
+  </body>
+</html>
