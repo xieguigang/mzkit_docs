@@ -29,7 +29,8 @@
         <div style="width: 100%; padding-left: 3%; color: black;">
             <pre><code class='language-R' style="color: black; font-weight:normal;"><strong>write.imzML</strong>(<i>mzpack</i>, <i>file</i>,
     <i>res</i> = <span style='color: green;'>17</span>,
-    <i>ionMode</i> = Positive);</code></pre>
+    <i>ionMode</i> = Positive,
+    <i>dims</i> = <span style='color: blue !important;'>NULL</span>);</code></pre>
         </div>
 
         <h3>Arguments</h3>
@@ -51,6 +52,10 @@
 <dt>ionMode</dt>
 <dd><p><p>the ion polarity mode value</p></p></dd>
 
+
+<dt>dims</dt>
+<dd><p><p>an integer vector for set the size of the ms-imaging canvas dimension</p></p></dd>
+
         </table>
 
 
@@ -69,7 +74,7 @@
  
  # convert the mzpack object into imzML format
  msi_rawdata
- |> write.imzML(file = "/path/to/msi_rawdata.imzML");</code></pre>
+ |> write.imzML(file = "/path/to/msi_rawdata.imzML", dims = [500, 450]);</code></pre>
 
         <hr />
         <div style="text-align: center;">[Package <em>MSI</em> version 1.0.0.0 <a
