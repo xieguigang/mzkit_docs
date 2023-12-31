@@ -10,7 +10,7 @@
     <meta name="keywords" content="R#; MSI; mzkit" />
     <meta name="generator" content="https://github.com/rsharp-lang" />
     <meta name="theme-color" content="#333" />
-    <meta name="description" content="MS-Imaging data handler..." />
+    <meta name="description" content="MS-Imaging data handler Mass spectrometry imaging (MSI) is a tec..." />
     <meta class="foundation-data-attribute-namespace" />
     <meta class="foundation-mq-xxlarge" />
     <meta class="foundation-mq-xlarge" />
@@ -66,7 +66,11 @@ table caption {font-size:14px;font-weight:bolder;}
                                <br /><br /><span style="color: green;">#' MS-Imaging data handler</span><br /><span style="color: blue;">imports</span><span style="color: brown"> "MSI"</span><span style="color: blue;"> from</span><span style="color: brown"> "mzkit"</span>;
                            </code>
     </p>
-    <p><p>MS-Imaging data handler</p></p>
+    <p><p>MS-Imaging data handler</p>
+
+<p>Mass spectrometry imaging (MSI) is a technique used in mass spectrometry<br />
+ to visualize the spatial distribution of molecules, as biomarkers, <br />
+ metabolites, peptides or proteins by their molecular masses.</p></p>
     <blockquote>
       <p style="font-style: italic; font-size: 0.9em;">
                            
@@ -111,6 +115,12 @@ table caption {font-size:14px;font-weight:bolder;}
   <td><p>get pixels size from the raw data file</p></td>
 </tr>
 <tr>
+  <td id="dimension_size">
+    <a href="./MSI/dimension_size.html">dimension_size</a>
+  </td>
+  <td><p>get or set the dimension size of the ms-imaging mzpack raw data object</p></td>
+</tr>
+<tr>
   <td id="open.imzML">
     <a href="./MSI/open.imzML.html">open.imzML</a>
   </td>
@@ -138,7 +148,7 @@ table caption {font-size:14px;font-weight:bolder;}
   <td id="correction">
     <a href="./MSI/correction.html">correction</a>
   </td>
-  <td><p>calculate the X scale</p></td>
+  <td><p>calculate the X axis scale</p></td>
 </tr>
 <tr>
   <td id="basePeakMz">
@@ -201,6 +211,12 @@ table caption {font-size:14px;font-weight:bolder;}
   <td><p>dumping raw data matrix as text table file.</p></td>
 </tr>
 <tr>
+  <td id="levels.convolution">
+    <a href="./MSI/levels.convolution.html">levels.convolution</a>
+  </td>
+  <td><p>sum pixels for create pixel spot convolution</p></td>
+</tr>
+<tr>
   <td id="spatial.convolution">
     <a href="./MSI/spatial.convolution.html">spatial.convolution</a>
   </td>
@@ -222,13 +238,19 @@ table caption {font-size:14px;font-weight:bolder;}
   <td id="sample_bootstraping">
     <a href="./MSI/sample_bootstraping.html">sample_bootstraping</a>
   </td>
-  <td></td>
+  <td><p>make expression bootstrapping of current ion layer</p></td>
 </tr>
 <tr>
   <td id="cast.spatial_layers">
     <a href="./MSI/cast.spatial_layers.html">cast.spatial_layers</a>
   </td>
   <td><p>cast the rawdata matrix as the ms-imaging ion layer</p></td>
+</tr>
+<tr>
+  <td id="z_assembler">
+    <a href="./MSI/z_assembler.html">z_assembler</a>
+  </td>
+  <td><p>Create mzpack object for ms-imaging in 3D</p></td>
 </tr></tbody>
       </table>
     </div>
