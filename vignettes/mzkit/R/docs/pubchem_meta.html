@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>get number of ions in each pixel scans</title>
+    <title>Helper script for run pubchem database query</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
     <link rel="stylesheet" type="text/css" href="https://mzkit.org/assets/js/page.css">
@@ -13,12 +13,12 @@
 
         <table style="width: 100%;">
             <tr>
-                <td>pixelIons {MSI}</td>
+                <td>pubchem_meta {mzkit}</td>
                 <td style="text-align: right;">R Documentation</td>
             </tr>
         </table>
 
-        <h2>get number of ions in each pixel scans</h2>
+        <h2>Helper script for run pubchem database query</h2>
 
         <h3>Description</h3>
 
@@ -27,15 +27,15 @@
         <h3>Usage</h3>
 
         <div style="width: 100%; padding-left: 3%; color: black;">
-            <pre><code class='language-R' style="color: black; font-weight:normal;"><strong>pixelIons</strong>(<i>raw</i>);</code></pre>
+            <pre><code class='language-R' style="color: black; font-weight:normal;"><strong>pubchem_meta</strong>(<i>term</i>);</code></pre>
         </div>
 
         <h3>Arguments</h3>
 
         <table>
             
-<dt>raw</dt>
-<dd><p><p>should be a mzpack object that contains multiple spatial spot scans data.</p></p></dd>
+<dt>term</dt>
+<dd><p>any search term string for run online pubchem database query. a character vector value could be the metabolite name, CAS number, etc.</p></dd>
 
         </table>
 
@@ -47,15 +47,15 @@
 
         <h3>Value</h3>
 
-        <p>an integer vector of the number of ions in each spatial spot scans</p><h4>clr value class</h4><ul><li>integer</li></ul>
+        a tuple list of the possible metabolite matches of the input search term.
 
         <h3 style="display: none;">Examples</h3>
 
         
 
         <hr />
-        <div style="text-align: center;">[Package <em>MSI</em> version 1.0.0.0 <a
-                href="../MSI.html">Index</a>]
+        <div style="text-align: center;">[Package <em>mzkit</em> version 3.2.56.56444 <a
+                href="../mzkit.html">Index</a>]
         </div>
     </div>
 </body>
