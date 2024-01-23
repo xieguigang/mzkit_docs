@@ -24,3 +24,15 @@ sudo make install
 wine64 --version
 wine --help
 ```
+
+
+```bash
+sudo dnf install wine-core
+sudo dnf install yum-utils
+
+sudo dnf config-manager --set-enabled crb
+sudo dnf install epel-release
+sudo dnf install epel-next-release
+
+sudo dnf install mesa-libOSMesa
+```
