@@ -38,17 +38,22 @@ export class PeakFeature {
    integration: double;
    # 这个区域的最大峰高度
    maxInto: double;
+   # the xic m/z
    mz: double;
    # 噪声的面积积分百分比
    noise: double;
    nticks: integer;
+   # the sample file name reference
    rawfile: string;
+   # the retention index of the corresponding <a href="/vignettes/clr/BioNovoGene/Analytical/MassSpectrometry/Math/PeakFeature.html">PeakFeature</a>.<a href="#">rt</a> value.
+   RI: double;
    # 出峰达到峰高最大值<a href="/vignettes/clr/BioNovoGene/Analytical/MassSpectrometry/Math/PeakFeature.html">PeakFeature</a>.<a href="#">maxInto</a>的时间点
    rt: double;
    rtmax: double;
    rtmin: double;
    # 信噪比
    snRatio: double;
+   # the unique reference id of the current peak object
    xcms_id: string;
 }
 </code>
