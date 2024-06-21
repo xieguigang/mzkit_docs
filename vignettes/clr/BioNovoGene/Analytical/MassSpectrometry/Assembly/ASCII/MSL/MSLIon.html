@@ -30,19 +30,19 @@
             <code id="clr_ts">
 # namespace BioNovoGene.Analytical.MassSpectrometry.Assembly.ASCII.MSL
 export class MSLIon {
-   Name: string;
+   CASNO: string;
+   Comment: string;
    Contributor: string;
    Formula: string;
-   CASNO: string;
-   Nist: string;
-   RI: string;
    # the <a href="/vignettes/clr/BioNovoGene/Analytical/MassSpectrometry/Assembly/ASCII/MSL/MSLIon.html">MSLIon</a>.<a href="#">Name</a> of the internal standard metabolite.
    IS: string;
-   Comment: string;
-   Source: string;
    MW: double;
-   RT: double;
+   Name: string;
+   Nist: string;
    Peaks: <a href="/vignettes/clr/BioNovoGene/Analytical/MassSpectrometry/Math/Spectra/ms2.html">ms2[]</a>;
+   RI: string;
+   RT: <a href="/vignettes/clr/System/Nullable`1.html">Nullable`1</a>;
+   Source: string;
 }
 </code>
         </pre>
@@ -51,6 +51,7 @@ export class MSLIon {
 
         <ol>
 <li>use by <i>property</i> member <code>Peaks</code>: <a href="/vignettes/clr/BioNovoGene/Analytical/MassSpectrometry/Math/Spectra/ms2.html">ms2</a></li>
+<li>use by <i>property</i> member <code>RT</code>: <a href="/vignettes/clr/System/Nullable`1.html">Nullable`1</a></li>
 </ol>
 
 
@@ -65,4 +66,4 @@ export class MSLIon {
 <script type="text/javascript" src="https://mzkit.org/assets/js/highlights.js"></script>
 <script type="text/javascript">r_highlights("clr_ts");</script>
 
-</html>
+</html>

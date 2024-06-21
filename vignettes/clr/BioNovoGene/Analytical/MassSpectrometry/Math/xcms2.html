@@ -29,22 +29,24 @@
         <pre>
             <code id="clr_ts">
 # namespace BioNovoGene.Analytical.MassSpectrometry.Math
-export class xcms2 extends <a href="/vignettes/clr/Microsoft/VisualBasic/ComponentModel/DataSourceModel/DynamicPropertyBase`1.html">DynamicPropertyBase`1</a> {
+export class xcms2 extends <a href="/vignettes/clr/System/Double.html">iterates(Double)</a> {
    # the feature unique id
    ID: string;
    # the ion m/z
    mz: double;
-   # the min of ion m/z value
-   mzmin: double;
    # the max of the ion m/z value
    mzmax: double;
-   # the rt value in max peak data point
-   rt: double;
-   rtmin: double;
-   rtmax: double;
+   # the min of ion m/z value
+   mzmin: double;
    # this feature has n sample data(value should be a positive number)
    npeaks: integer;
    Properties: list;
+   # the retention index value based on the rt transformation
+   RI: double;
+   # the rt value in max peak data point
+   rt: double;
+   rtmax: double;
+   rtmin: double;
 }
 </code>
         </pre>
@@ -52,7 +54,7 @@ export class xcms2 extends <a href="/vignettes/clr/Microsoft/VisualBasic/Compone
         <h3>.NET clr type reference tree</h3>
 
         <ol>
-<li>this class extends from <a href="/vignettes/clr/Microsoft/VisualBasic/ComponentModel/DataSourceModel/DynamicPropertyBase`1.html">DynamicPropertyBase`1</a> class: <a href="/vignettes/clr/Microsoft/VisualBasic/ComponentModel/DataSourceModel/DynamicPropertyBase`1.html">DynamicPropertyBase`1</a></li>
+<li>this class extends from <a href="/vignettes/clr/System/Double.html">iterates(Double)</a> class: <a href="/vignettes/clr/System/Double.html">iterates(Double)</a></li>
 <li>use by <i>property</i> member <code>Properties</code>: list</li>
 </ol>
 
@@ -68,4 +70,4 @@ export class xcms2 extends <a href="/vignettes/clr/Microsoft/VisualBasic/Compone
 <script type="text/javascript" src="https://mzkit.org/assets/js/highlights.js"></script>
 <script type="text/javascript">r_highlights("clr_ts");</script>
 
-</html>
+</html>

@@ -30,23 +30,23 @@
             <code id="clr_ts">
 # namespace Microsoft.VisualBasic.Imaging.SVG.XML
 export class SvgElement {
-   # html element node id liked identifer
-   Id: string;
-   TabIndex: integer;
    Fill: string;
    FillOpacity: double;
+   # html element node id liked identifer
+   Id: string;
    # the stroke color, value of this property should be html color code
    Stroke: string;
-   StrokeOpacity: double;
-   StrokeWidth: double;
-   StrokeLineCap: <a href="/vignettes/clr/Microsoft/VisualBasic/Imaging/SVG/XML/Enums/SvgStrokeLineCap.html">SvgStrokeLineCap</a>;
    # The stroke-dasharray attribute is a presentation attribute defining the pattern of 
    #  dashes and gaps used to paint the outline of the shape;
    StrokeDashArray: double;
-   Transform: string;
-   Visible: boolean;
+   StrokeLineCap: <a href="/vignettes/clr/Microsoft/VisualBasic/Imaging/SVG/XML/Enums/SvgStrokeLineCap.html">SvgStrokeLineCap</a>;
+   StrokeOpacity: double;
+   StrokeWidth: double;
    # current element node css style
    Style: string;
+   TabIndex: <a href="/vignettes/clr/System/Nullable`1.html">Nullable`1</a>;
+   Transform: string;
+   Visible: boolean;
 }
 </code>
         </pre>
@@ -55,6 +55,7 @@ export class SvgElement {
 
         <ol>
 <li>use by <i>property</i> member <code>StrokeLineCap</code>: <a href="/vignettes/clr/Microsoft/VisualBasic/Imaging/SVG/XML/Enums/SvgStrokeLineCap.html">SvgStrokeLineCap</a></li>
+<li>use by <i>property</i> member <code>TabIndex</code>: <a href="/vignettes/clr/System/Nullable`1.html">Nullable`1</a></li>
 </ol>
 
 
@@ -69,4 +70,4 @@ export class SvgElement {
 <script type="text/javascript" src="https://mzkit.org/assets/js/highlights.js"></script>
 <script type="text/javascript">r_highlights("clr_ts");</script>
 
-</html>
+</html>

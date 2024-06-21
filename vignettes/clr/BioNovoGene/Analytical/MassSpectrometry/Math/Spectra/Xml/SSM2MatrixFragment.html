@@ -22,7 +22,7 @@
 
         <h3>Description</h3>
 
-        <p>tuple data of [mz, query_intensity, reference_intensity]</p>
+        <p>tuple data of [mz, query<em>intensity, reference</em>intensity]</p>
 
         <h3>Declare</h3>        
 
@@ -30,12 +30,12 @@
             <code id="clr_ts">
 # namespace BioNovoGene.Analytical.MassSpectrometry.Math.Spectra.Xml
 export class SSM2MatrixFragment {
+   # Mass delta between the query and reference fragment in unit <code>da</code>
+   da: string;
    # The m/z value of the query fragment
    mz: double;
    query: double;
    ref: double;
-   # Mass delta between the query and reference fragment in unit <code>da</code>
-   da: string;
 }
 </code>
         </pre>
@@ -56,4 +56,4 @@ export class SSM2MatrixFragment {
 <script type="text/javascript" src="https://mzkit.org/assets/js/highlights.js"></script>
 <script type="text/javascript">r_highlights("clr_ts");</script>
 
-</html>
+</html>

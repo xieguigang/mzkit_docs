@@ -1,0 +1,14 @@
+option,value
+version,5.2.7336.3219
+DOI,
+date,2/9/2024
+note,🎉🎇🎇2024
+note,🎉Happy chinese new year!
+note,🧨🧨🧨🎉🎉🎇🎇
+enhancement,make improvements of the 3d ms-imaging model viewer: allowes load raw raster byte volume model
+new,simple workbench toolset for metabonomics data analysis and visualization
+new,view GCxGC rawdata file
+fixed,fix for load GCMS netCDF rawdata file(add new file reader based on the unidata netcdf-c library)
+update,add supports of metabonomics data analysis for the selected interested ion layer in ms-imaging viewer
+new,LC-MS reference spectrum library management
+enhancement,MoNA online services plugin for build local LCMS reference spectrum library
