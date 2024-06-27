@@ -1,0 +1,7 @@
+option,value
+version,5.9.3325.159
+DOI,
+date,6/29/2024
+new,add single cells metabolomics data viewer module(in version 1)
+fixed,fix of the tcp networking module in ms-imaging viewer([see details issue #28](https://github.com/xieguigang/mzkit/issues/28))
+fixed,fix the login module for the new biodeep online database services
