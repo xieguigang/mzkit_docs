@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>create the volume file header data</title>
+    <title>run measure of the ion features in IPC parallel for a huge ms-imaging rawdata matrix</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
     <link rel="stylesheet" type="text/css" href="https://mzkit.org/assets/js/page.css">
@@ -13,12 +13,12 @@
 
         <table style="width: 100%;">
             <tr>
-                <td>z_header {MSI}</td>
+                <td>MSI_ionStat_parallel {MsImaging}</td>
                 <td style="text-align: right;">R Documentation</td>
             </tr>
         </table>
 
-        <h2>create the volume file header data</h2>
+        <h2>run measure of the ion features in IPC parallel for a huge ms-imaging rawdata matrix</h2>
 
         <h3>Description</h3>
 
@@ -27,20 +27,20 @@
         <h3>Usage</h3>
 
         <div style="width: 100%; padding-left: 3%; color: black;">
-            <pre><code class='language-R' style="color: black; font-weight:normal;"><strong>z_header</strong>(<i>features</i>,
-    <i>mzdiff</i> = <span style='color: green;'>0.001</span>);</code></pre>
+            <pre><code class='language-R' style="color: black; font-weight:normal;"><strong>MSI_ionStat_parallel</strong>(<i>x</i>,
+    <i>grid.size</i> = <span style='color: green;'>5</span>);</code></pre>
         </div>
 
         <h3>Arguments</h3>
 
         <table>
             
-<dt>features</dt>
-<dd><p>the ion features m/z vector</p></dd>
+<dt>x</dt>
+<dd><p>[as <a href="/vignettes/clr/BioNovoGene/Analytical/MassSpectrometry/SingleCells/Deconvolute/MzMatrix.html">MzMatrix</a>]</p></dd>
 
 
-<dt>mzdiff</dt>
-<dd><p>[as double]</p></dd>
+<dt>grid.size</dt>
+<dd><p>[as integer]</p></dd>
 
         </table>
 
@@ -51,19 +51,19 @@
 
         <h3 style="display: block">Authors</h3>
 
-        BioNovoGene
+        hpc
 
         <h3>Value</h3>
 
-        this function returns data object of type <a href="/vignettes/clr/BioNovoGene/Analytical/MassSpectrometry/SingleCells/File/MatrixHeader.html">MatrixHeader</a>.<h4>clr value class</h4><ul><li><a href="/vignettes/clr/BioNovoGene/Analytical/MassSpectrometry/SingleCells/File/MatrixHeader.html">MatrixHeader</a></li></ul>
+        this function returns data object of type <a href="/vignettes/clr/BioNovoGene/Analytical/MassSpectrometry/MsImaging/IonStat.html">IonStat</a>.<h4>clr value class</h4><ul><li><a href="/vignettes/clr/BioNovoGene/Analytical/MassSpectrometry/MsImaging/IonStat.html">IonStat</a></li></ul>
 
         <h3 style="display: none;">Examples</h3>
 
         
 
         <hr />
-        <div style="text-align: center;">[Package <em>MSI</em> version 1.0.0.0 <a
-                href="../MSI.html">Index</a>]
+        <div style="text-align: center;">[Package <em>MsImaging</em> version 1.0.0.0 <a
+                href="../MsImaging.html">Index</a>]
         </div>
     </div>
 </body>
