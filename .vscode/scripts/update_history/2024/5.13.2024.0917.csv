@@ -1,0 +1,22 @@
+option,value
+version,5.13.2024.0917
+DOI,
+date,9/17/2024
+update,"enable run batch LC-MS rawdata file deconvolution for get a xcms format liked peaktable result, discussion on github: [Does this page is the result of peak picking? xcms_id?Not AccumulateROI? #30](https://github.com/xieguigang/mzkit/issues/30)"
+update,add new hatmap color palette to the ms-imaging render: ``Seismic`` and ``Icefire``
+fixed,"make bug fixed for rgb overlaps ms-imaging in old release: when the number of selected ions is less than 3 ion, the export script will be crashed, now it has been fixed"
+fixed,"make error fixed for load kegg compound database"
+enhancement,make improvements of the table viewer: add send to ms-imaging ion list function
+enhancement,"make improvements of the spatial expression peaktable generator algorithm: make expression data bootstrapping in MSI data service backend(make bootstrapping in frontend UI in old release, this may crashed the entire workbench window if the data payload is too big)"
+fixed,"make error fixed of the possible file stream not released when make ms-imaging peakfile exports, this may crashed the data export script background task process."
+enhancement,"make improvements of the metabonomics workbench module: add peaktable pre-processing, data selection, imports annotation, filter annotation function"
+enhancement,"make improvements of the ms-imaging region operation: enable extract region sample data from the loaded tissue region data."
+fixed,"fixed of the un-expected raster data filter when do rgb ions overlaps ms-imaging plot exports"
+fixed,"fix of the data reader of the kegg enrichment viewer: data table field name is mis-matched with the reader, this will carashed the entire workbench program in the old release."
+enhancement,"enable make config of the adducts when do ms1 peak annotation search"
+fixed,"fixed of config default XIC mass tolerance window in the workbench settings page"
+new,"search biodeep database online resource for make a specific ion annotation in metabonomics workbench module"
+fixed,"fix of the fragment annotation in lc-ms data viewer"
+note,🎉🎇🎇2024-09-17
+note,🎉Happy Mid-Autumn Festival!
+note,🧨🧨🧨🎉🎉🎇🎇
