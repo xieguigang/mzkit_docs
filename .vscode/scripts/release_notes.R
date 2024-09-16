@@ -38,9 +38,9 @@ const write_releaseNote = function(dbfiles, lang = NULL) {
 	;
 	const history_page = {
 		if (is.null(lang)) {
-			`${dirname(dirname(ROOT))}/HISTORY.html`
+			`${dirname(dirname(ROOT))}/../HISTORY.html`
 		} else {
-			`${dirname(dirname(ROOT))}/HISTORY-${lang}.html`
+			`${dirname(dirname(ROOT))}/../HISTORY-${lang}.html`
 		}
 	};
 
