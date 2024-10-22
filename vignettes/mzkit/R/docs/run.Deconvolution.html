@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title><p>Do ms1 deconvolution of the rawdata</p></title>
+    <title>Do ms1 deconvolution of the rawdata</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
     <link rel="stylesheet" type="text/css" href="https://mzkit.org/assets/js/page.css">
@@ -18,7 +18,7 @@
             </tr>
         </table>
 
-        <h2><p>Do ms1 deconvolution of the rawdata</p></h2>
+        <h2>Do ms1 deconvolution of the rawdata</h2>
 
         <h3>Description</h3>
 
@@ -29,8 +29,11 @@
         <div style="width: 100%; padding-left: 3%; color: black;">
             <pre><code class='language-R' style="color: black; font-weight:normal;"><strong>run.Deconvolution</strong>(<i>rawdata</i>,
     <i>outputdir</i> = <span style='color: brown;'><strong>'./'</strong></span>,
-    <i>mzdiff</i> = <span style='color: green;'>0.005</span>,
-    <i>peak.width</i> = [<span style='color: green;'>90</span>]);</code></pre>
+    <i>mzdiff</i> = <span style='color: green;'>0.001</span>,
+    <i>xic.mzdiff</i> = <span style='color: green;'>0.005</span>,
+    <i>peak.width</i> = [<span style='color: green;'>30</span>],
+    <i>n.threads</i> = <span style='color: green;'>16</span>,
+    <i>filename</i> = <span style='color: brown;'><strong>'peaktable.csv'</strong></span>);</code></pre>
         </div>
 
         <h3>Arguments</h3>
@@ -51,6 +54,18 @@
 
 <dt>peak.width</dt>
 <dd><p><p>the rt range of the peak data</p></p></dd>
+
+
+<dt>n.threads</dt>
+<dd><p><p>the cpu thread number for apply for the peak alignments when export peaktable data.</p></p></dd>
+
+
+<dt>xic.mzdiff</dt>
+<dd><p><p>the mass tolerance error for make extract of the xic data from all of the ms1 rawdata scatters.</p></p></dd>
+
+
+<dt>filename</dt>
+<dd><p><p>the save file name of the exports generated peaktable file.</p></p></dd>
 
         </table>
 

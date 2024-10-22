@@ -147,13 +147,19 @@ table caption {font-size:14px;font-weight:bolder;}
   <td id="write.xcms_peaks">
     <a href="./mzDeco/write.xcms_peaks.html">write.xcms_peaks</a>
   </td>
-  <td></td>
+  <td><p>save mzkit peaktable object to csv table file</p></td>
+</tr>
+<tr>
+  <td id="as.peak_set">
+    <a href="./mzDeco/as.peak_set.html">as.peak_set</a>
+  </td>
+  <td><p>cast dataset to mzkit peaktable object</p></td>
 </tr>
 <tr>
   <td id="read.xcms_features">
     <a href="./mzDeco/read.xcms_features.html">read.xcms_features</a>
   </td>
-  <td></td>
+  <td><p>Try to cast the dataframe to the mzkit peak feature object set</p></td>
 </tr>
 <tr>
   <td id="peak_subset">
@@ -162,10 +168,22 @@ table caption {font-size:14px;font-weight:bolder;}
   <td><p>make sample column projection</p></td>
 </tr>
 <tr>
+  <td id="xcms_peak">
+    <a href="./mzDeco/xcms_peak.html">xcms_peak</a>
+  </td>
+  <td><p>Create a xcms peak data object</p></td>
+</tr>
+<tr>
   <td id="find_xcms_ionPeaks">
     <a href="./mzDeco/find_xcms_ionPeaks.html">find_xcms_ionPeaks</a>
   </td>
-  <td></td>
+  <td><p>helper function for find ms1 peaks based on the given mz/rt tuple data</p></td>
+</tr>
+<tr>
+  <td id="get_xcms_ionPeaks">
+    <a href="./mzDeco/get_xcms_ionPeaks.html">get_xcms_ionPeaks</a>
+  </td>
+  <td><p>get ion peaks via the unique reference id</p></td>
 </tr>
 <tr>
   <td id="adjust_to_seconds">
@@ -192,6 +210,18 @@ table caption {font-size:14px;font-weight:bolder;}
   <td><p>Chromatogram data deconvolution</p></td>
 </tr>
 <tr>
+  <td id="MS1deconv">
+    <a href="./mzDeco/MS1deconv.html">MS1deconv</a>
+  </td>
+  <td><p>A debug function for test peak finding method</p></td>
+</tr>
+<tr>
+  <td id="read.rt_shifts">
+    <a href="./mzDeco/read.rt_shifts.html">read.rt_shifts</a>
+  </td>
+  <td></td>
+</tr>
+<tr>
   <td id="write.peaks">
     <a href="./mzDeco/write.peaks.html">write.peaks</a>
   </td>
@@ -213,6 +243,12 @@ table caption {font-size:14px;font-weight:bolder;}
  current (TIC) is a widely used time alignment algorithm 
  (COW-TIC). This approach works successfully on chromatograms 
  containing few compounds and having a well-defined TIC.</p></td>
+</tr>
+<tr>
+  <td id="RI_batch_join">
+    <a href="./mzDeco/RI_batch_join.html">RI_batch_join</a>
+  </td>
+  <td><p>make peaktable join of two batch data via (mz,RI)</p></td>
 </tr>
 <tr>
   <td id="mz.groups">

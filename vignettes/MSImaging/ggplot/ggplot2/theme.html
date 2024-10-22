@@ -22,7 +22,7 @@
 
         <h3>Description</h3>
 
-        <p><br /> Themes are a powerful way to customize the non-data components of <br /> your plots: i.e. titles, labels, fonts, background, gridlines, and <br /> legends. Themes can be used to give plots a consistent customized <br /> look. Modify a single plot's theme using theme(); see theme_update() <br /> if you want modify the active theme, to affect all subsequent plots. <br /> Use the themes available in complete themes if you would like to use <br /> a complete theme such as theme_bw(), theme_minimal(), and more. <br /> <br /> Theme elements are documented together according to inheritance, read<br /> more about theme inheritance below.</p>
+        <p><br /> Themes are a powerful way to customize the non-data components of <br /> your plots: i.e. titles, labels, fonts, background, gridlines, and <br /> legends. Themes can be used to give plots a consistent customized <br /> look. Modify a single plot's theme using theme(); see theme<em>update() <br /> if you want modify the active theme, to affect all subsequent plots. <br /> Use the themes available in complete themes if you would like to use <br /> a complete theme such as theme</em>bw(), theme_minimal(), and more. <br /> <br /> Theme elements are documented together according to inheritance, read<br /> more about theme inheritance below.</p>
 
         <h3>Usage</h3>
 
@@ -35,6 +35,8 @@
     <i>axis.text.x</i> = <span style='color: blue !important;'>NULL</span>,
     <i>legend.background</i> = <span style='color: #FFFFFF;'><strong>"white"</strong></span>,
     <i>legend.text</i> = <span style='color: blue !important;'>NULL</span>,
+    <i>legend.tick</i> = <span style='color: blue !important;'>NULL</span>,
+    <i>legend.title</i> = <span style='color: blue !important;'>NULL</span>,
     <i>legend.split</i> = <span style='color: green;'>6</span>,
     <i>plot.background</i> = <span style='color: blue !important;'>NULL</span>,
     <i>plot.title</i> = <span style='color: blue !important;'>NULL</span>,
@@ -73,11 +75,11 @@
 
 
 <dt>axis.line</dt>
-<dd><p>lines along axes (element_line()). Specify lines <br />
- along all axes (axis.line), lines for each plane (using axis.line.x or <br />
- axis.line.y), or individually for each axis (using axis.line.x.bottom, <br />
- axis.line.x.top, axis.line.y.left, axis.line.y.right). <code>axis.line.*.*</code> <br />
- inherits from axis.line.* which inherits from axis.line, which in turn <br />
+<dd><p>lines along axes (element_line()). Specify lines 
+ along all axes (axis.line), lines for each plane (using axis.line.x or 
+ axis.line.y), or individually for each axis (using axis.line.x.bottom, 
+ axis.line.x.top, axis.line.y.left, axis.line.y.right). <code>axis.line.*.*</code> 
+ inherits from axis.line.* which inherits from axis.line, which in turn 
  inherits from line</p></dd>
 
         </table>
@@ -85,18 +87,18 @@
 
         <h3 style="display: block;">Details</h3>
 
-        <p>Theme elements inherit properties from other theme elements hierarchically. <br />
- For example, axis.title.x.bottom inherits from axis.title.x which inherits <br />
- from axis.title, which in turn inherits from text. All text elements inherit<br />
- directly or indirectly from text; all lines inherit from line, and all <br />
- rectangular objects inherit from rect. This means that you can modify the <br />
- appearance of multiple elements by setting a single high-level component.</p>
-
-<p>Learn more about setting these aesthetics In vignette("ggplot2-specs").</p>
+        <p>Theme elements inherit properties from other theme elements hierarchically. 
+ For example, axis.title.x.bottom inherits from axis.title.x which inherits 
+ from axis.title, which in turn inherits from text. All text elements inherit
+ directly or indirectly from text; all lines inherit from line, and all 
+ rectangular objects inherit from rect. This means that you can modify the 
+ appearance of multiple elements by setting a single high-level component.
+ 
+ Learn more about setting these aesthetics In vignette("ggplot2-specs").</p>
 
         <h3 style="display: block">Authors</h3>
 
-        SMRUCC
+        SMRUCC genomics institute
 
         <h3>Value</h3>
 
@@ -117,4 +119,4 @@
 <script type="text/javascript" src="https://mzkit.org/assets/js/highlights.js"></script>
 <script type="text/javascript">r_highlights("example_r");</script>
 
-</html>
+</html>
