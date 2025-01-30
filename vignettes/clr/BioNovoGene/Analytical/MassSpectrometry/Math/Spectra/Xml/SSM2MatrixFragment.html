@@ -22,7 +22,7 @@
 
         <h3>Description</h3>
 
-        <p>tuple data of [mz, query<em>intensity, reference</em>intensity]</p>
+        <p>tuple data of [mz, query<em>intensity, reference</em>intensity], a MatchedPeak model</p>
 
         <h3>Declare</h3>        
 
@@ -32,6 +32,8 @@
 export class SSM2MatrixFragment {
    # Mass delta between the query and reference fragment in unit <code>da</code>
    da: string;
+   IsNeutralLossMatched: boolean;
+   IsProductIonMatched: boolean;
    # The m/z value of the query fragment
    mz: double;
    # intensity in the query spectrum data

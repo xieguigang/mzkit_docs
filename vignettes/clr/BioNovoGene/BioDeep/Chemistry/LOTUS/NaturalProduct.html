@@ -33,7 +33,7 @@
  Egon Willighagen, Arnaud Gaudry, James G Graham, Ralf Stephan, Roderic Page, Jiří 
  Vondrášek, Christoph Steinbeck, Guido F Pauli, Jean-Luc Wolfender, Jonathan Bisson, 
  Pierre-Marie Allard (2022) The LOTUS initiative for open knowledge management in 
- natural products research. eLife 11:e70780.<a href='https://doi.org/10.7554/eLife.70780' title='https://doi.org/10.7554/eLife.70780'>https://doi.org/10.7554/eLife.70780</a><a href='https://lotus.naturalproducts.net/' title='https://lotus.naturalproducts.net/'>https://lotus.naturalproducts.net/</a></p>
+ natural products research. eLife 11:e70780.;;;auto<em>url+1xxx;;;;;;auto</em>url+2xxx;;;</p>
 
         <h3>Declare</h3>        
 
@@ -41,13 +41,31 @@
             <code id="clr_ts">
 # namespace BioNovoGene.BioDeep.Chemistry.LOTUS
 export class NaturalProduct {
+   allTaxa: string;
+   chemicalTaxonomyNPclassifierClass: string;
+   chemicalTaxonomyNPclassifierPathway: string;
+   chemicalTaxonomyNPclassifierSuperclass: string;
+   ExactMass: double;
+   inchi: string;
+   inchikey: string;
+   iupac_name: string;
+   lotus_id: string;
+   molecular_formula: string;
+   smiles: string;
+   synonyms: string;
+   taxonomyReferenceObjects: list;
+   traditional_name: string;
+   wikidata_id: string;
+   xrefs: string;
 }
 </code>
         </pre>
 
         <h3>.NET clr type reference tree</h3>
 
-        this clr type has no other .net clr type reference.
+        <ol>
+<li>use by <i>property</i> member <code>taxonomyReferenceObjects</code>: list</li>
+</ol>
 
 
         <hr />
